@@ -2,4 +2,32 @@
 
     <string name="app_name">Words With Enemies</string>
 	<string name="namespace">com.riotapps.words</string>
+	<string name="wordnik_apiKey">48f31f368d20791114b01067e1d05b68ca177aabdbab4150b</string>
+    <string name="chartboost_app_id">5126a10716ba477b0e000019</string>
+    <string name="chartboost_app_signature">cc41971b1b681903b94c7c666f88d83d7da43762</string>
+    <string name="admob_pub_id_main_landing">ca-app-pub-7811514377323585/2429670350</string>
+    <string name="admob_pub_id_full_rules">ca-app-pub-7811514377323585/5383136758</string>
+    <string name="admob_pub_id_game_played_words">ca-app-pub-7811514377323585/9952937157</string> 
+    <string name="admob_pub_id_game_word_definition">ca-app-pub-7811514377323585/9813336350</string>
+ 	<string name="admob_pub_id_about">ca-app-pub-7811514377323585/6580668358</string> 
+    <string name="admob_pub_id_completed_games">ca-app-pub-7811514377323585/9534134756</string>
+    
+    <string name="IAB_1">MIIBIjANBgkqhkiG9w0</string>
+	<string name="IAB_2">BAQEFAAOCAQ8AMIIBCgKCAQEA</string>
+	<string name="IAB_3">xZNJCeHAcdfRmaZ4LPQuv</string>
+	<string name="IAB_4">9v4iBmjha/1GslMANYD7JQ</string>
+	<string name="IAB_5">NOf+lhQ8fCXYykhvXKC+dKBjA</string>
+	<string name="IAB_6">8jF/48FHAmb9kA4TChHPsCAJX7bg3A</string>
+	<string name="IAB_7">v6VaROvNPP3X1Zj1BMjgsceXZb</string>
+	<string name="IAB_8">1wopeyE/tOjgi0RDfdA3JpppzTj2+xQ</string>
+	<string name="IAB_9">Zznc0XKK51Ng7fxbdJaxVBCoXmU6R/rzz+m</string>
+	<string name="IAB_10">i3n1M/tRppK0vypWr0P33LSAXfwGJquwlgy3OzO</string>
+	<string name="IAB_11">UwAEYodFgRj4RkduVl51uIXJleH9jTYUcTWxpOQ</string>
+	<string name="IAB_12">dxvYsmyMVjqEmzexvjImNfef/v96kwfrj+b7r0qn</string>
+	<string name="IAB_13">cjFj1uvYsEfg4EROd1rAWVlGQYPlQDtoBwIDAQAB</string>
+	
+	<string name="main_first_time_alert_message">To get started, just choose a monster to play.  Check out all of the rules or visit the store by tapping the 3 squares in the top right corner.\n\nEnjoy Words With Enemies!\n\nThe monsters are waiting...</string>
+	<string name="word_hint_dialog_title">Ethan\'s Hints</string>	
+	
+	
 </resources>
