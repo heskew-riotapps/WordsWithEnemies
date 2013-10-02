@@ -1,0 +1,5 @@
+<resources>
+
+    <string name="app_name">Words With Enemies</string>
+	<string name="namespace">com.riotapps.words</string>
+</resources>
