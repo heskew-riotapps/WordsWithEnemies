@@ -4837,9 +4837,11 @@ com.google.gson.stream.MalformedJsonException: MalformedJsonException(java.lang.
 com.riotapps.wordbase.About
 com.riotapps.wordbase.About: About()
 com.riotapps.wordbase.About: void onCreate(android.os.Bundle)
+com.riotapps.wordbase.About: void loadViews()
 com.riotapps.wordbase.About: void onClick(android.view.View)
 com.riotapps.wordbase.About: void onStart()
 com.riotapps.wordbase.About: void onStop()
+com.riotapps.wordbase.About: void setupFonts()
 com.riotapps.wordbase.CompletedGames
 com.riotapps.wordbase.CompletedGames: CompletedGames()
 com.riotapps.wordbase.CompletedGames: void onCreate(android.os.Bundle)
@@ -5132,6 +5134,7 @@ com.riotapps.wordbase.R$id: int bSkip
 com.riotapps.wordbase.R$id: int bStore
 com.riotapps.wordbase.R$id: int bSwap
 com.riotapps.wordbase.R$id: int bWordDefinitionsPrice
+com.riotapps.wordbase.R$id: int bWordHintsPrice
 com.riotapps.wordbase.R$id: int bonus2l
 com.riotapps.wordbase.R$id: int bonus2l_img
 com.riotapps.wordbase.R$id: int bonus2w
@@ -5159,6 +5162,7 @@ com.riotapps.wordbase.R$id: int ivOpponent
 com.riotapps.wordbase.R$id: int ivPlayer
 com.riotapps.wordbase.R$id: int ivPremiumUpgradePurchased
 com.riotapps.wordbase.R$id: int ivWordDefinitionsPurchased
+com.riotapps.wordbase.R$id: int ivWordHintsPurchased
 com.riotapps.wordbase.R$id: int ivWordnik
 com.riotapps.wordbase.R$id: int llBottomBorder
 com.riotapps.wordbase.R$id: int llButtons
@@ -5172,6 +5176,7 @@ com.riotapps.wordbase.R$id: int llOpponentRecordWrapper
 com.riotapps.wordbase.R$id: int llOpponents
 com.riotapps.wordbase.R$id: int llPremiumUpgradePriceWrapper
 com.riotapps.wordbase.R$id: int llWordDefinitionsPriceWrapper
+com.riotapps.wordbase.R$id: int llWordHintsPriceWrapper
 com.riotapps.wordbase.R$id: int logo
 com.riotapps.wordbase.R$id: int logoArea
 com.riotapps.wordbase.R$id: int lookup_item_id
@@ -5196,6 +5201,7 @@ com.riotapps.wordbase.R$id: int rlLineItem
 com.riotapps.wordbase.R$id: int rlNoAds
 com.riotapps.wordbase.R$id: int rlPremiumUpgrade
 com.riotapps.wordbase.R$id: int rlWordDefinitions
+com.riotapps.wordbase.R$id: int rlWordHints
 com.riotapps.wordbase.R$id: int scoreboard
 com.riotapps.wordbase.R$id: int scoreboardNumbers
 com.riotapps.wordbase.R$id: int scroller
@@ -5352,6 +5358,8 @@ com.riotapps.wordbase.R$id: int tvVersionName
 com.riotapps.wordbase.R$id: int tvWord
 com.riotapps.wordbase.R$id: int tvWordDefinitionsDescription
 com.riotapps.wordbase.R$id: int tvWordDefinitionsTitle
+com.riotapps.wordbase.R$id: int tvWordHintsDescription
+com.riotapps.wordbase.R$id: int tvWordHintsTitle
 com.riotapps.wordbase.R$id: int tvYourDraws
 com.riotapps.wordbase.R$id: int tvYourLosses
 com.riotapps.wordbase.R$id: int tvYourWins
@@ -5416,6 +5424,11 @@ com.riotapps.wordbase.R$string: int IAB_6
 com.riotapps.wordbase.R$string: int IAB_7
 com.riotapps.wordbase.R$string: int IAB_8
 com.riotapps.wordbase.R$string: int IAB_9
+com.riotapps.wordbase.R$string: int SKU_GOOGLE_PLAY_HIDE_INTERSTITIAL
+com.riotapps.wordbase.R$string: int SKU_GOOGLE_PLAY_HOPPER_PEEK
+com.riotapps.wordbase.R$string: int SKU_GOOGLE_PLAY_PREMIUM_UPGRADE
+com.riotapps.wordbase.R$string: int SKU_GOOGLE_PLAY_WORD_DEFINITIONS
+com.riotapps.wordbase.R$string: int SKU_GOOGLE_PLAY_WORD_HINTS
 com.riotapps.wordbase.R$string: int a_day_ago
 com.riotapps.wordbase.R$string: int about_a_minute_ago
 com.riotapps.wordbase.R$string: int about_build_number
@@ -5687,6 +5700,8 @@ com.riotapps.wordbase.R$string: int store_item_premium_upgrade_description
 com.riotapps.wordbase.R$string: int store_item_premium_upgrade_title
 com.riotapps.wordbase.R$string: int store_item_word_definitions_description
 com.riotapps.wordbase.R$string: int store_item_word_definitions_title
+com.riotapps.wordbase.R$string: int store_item_word_hints_description
+com.riotapps.wordbase.R$string: int store_item_word_hints_title
 com.riotapps.wordbase.R$string: int thank_you
 com.riotapps.wordbase.R$string: int tile_2L
 com.riotapps.wordbase.R$string: int tile_2W
@@ -6373,17 +6388,17 @@ com.riotapps.wordbase.hooks.StoreService
 com.riotapps.wordbase.hooks.StoreService: StoreService()
 com.riotapps.wordbase.hooks.StoreService: com.riotapps.wordbase.hooks.Purchase getPurchaseBySku(java.lang.String)
 com.riotapps.wordbase.hooks.StoreService: java.util.List getStoreItems()
-com.riotapps.wordbase.hooks.StoreService: java.util.List getAllSkus()
-com.riotapps.wordbase.hooks.StoreService: boolean isHideInterstitialAdPurchased()
-com.riotapps.wordbase.hooks.StoreService: boolean isPremiumUpgradePurchased()
-com.riotapps.wordbase.hooks.StoreService: boolean isHopperPeekPurchased()
-com.riotapps.wordbase.hooks.StoreService: boolean isWordDefinitionLookupPurchased()
-com.riotapps.wordbase.hooks.StoreService: boolean isWordHintsPurchased()
-com.riotapps.wordbase.hooks.StoreService: boolean isHideBannerAdsPurchased()
-com.riotapps.wordbase.hooks.StoreService: java.lang.String getIABPublicKey()
+com.riotapps.wordbase.hooks.StoreService: java.util.List getAllSkus(android.content.Context)
+com.riotapps.wordbase.hooks.StoreService: boolean isHideInterstitialAdPurchased(android.content.Context)
+com.riotapps.wordbase.hooks.StoreService: boolean isPremiumUpgradePurchased(android.content.Context)
+com.riotapps.wordbase.hooks.StoreService: boolean isHopperPeekPurchased(android.content.Context)
+com.riotapps.wordbase.hooks.StoreService: boolean isWordDefinitionLookupPurchased(android.content.Context)
+com.riotapps.wordbase.hooks.StoreService: boolean isWordHintsPurchased(android.content.Context)
+com.riotapps.wordbase.hooks.StoreService: boolean isHideBannerAdsPurchased(android.content.Context)
+com.riotapps.wordbase.hooks.StoreService: java.lang.String getIABPublicKey(android.content.Context)
 com.riotapps.wordbase.hooks.StoreService: void savePurchase(java.lang.String,java.lang.String)
 com.riotapps.wordbase.hooks.StoreService: void clearPurchase(java.lang.String)
-com.riotapps.wordbase.hooks.StoreService: void syncPurchases(com.riotapps.wordbase.billing.Inventory)
+com.riotapps.wordbase.hooks.StoreService: void syncPurchases(com.riotapps.wordbase.billing.Inventory,android.content.Context)
 com.riotapps.wordbase.hooks.TileLayout
 com.riotapps.wordbase.hooks.TileLayout: java.util.List StarterTiles
 com.riotapps.wordbase.hooks.TileLayout: java.util.List BonusTiles
@@ -7058,19 +7073,6 @@ com.riotapps.wordbase.utils.Constants: java.lang.String FB_TOKEN_EXPIRES
 com.riotapps.wordbase.utils.Constants: int FREE_USES_WORD_HINTS
 com.riotapps.wordbase.utils.Constants: int FREE_USES_HOPPER_PEEK
 com.riotapps.wordbase.utils.Constants: int FREE_USES_WORD_DEFINITION
-com.riotapps.wordbase.utils.Constants: java.lang.String IAB_1
-com.riotapps.wordbase.utils.Constants: java.lang.String IAB_2
-com.riotapps.wordbase.utils.Constants: java.lang.String IAB_3
-com.riotapps.wordbase.utils.Constants: java.lang.String IAB_4
-com.riotapps.wordbase.utils.Constants: java.lang.String IAB_5
-com.riotapps.wordbase.utils.Constants: java.lang.String IAB_6
-com.riotapps.wordbase.utils.Constants: java.lang.String IAB_7
-com.riotapps.wordbase.utils.Constants: java.lang.String IAB_8
-com.riotapps.wordbase.utils.Constants: java.lang.String IAB_9
-com.riotapps.wordbase.utils.Constants: java.lang.String IAB_10
-com.riotapps.wordbase.utils.Constants: java.lang.String IAB_11
-com.riotapps.wordbase.utils.Constants: java.lang.String IAB_12
-com.riotapps.wordbase.utils.Constants: java.lang.String IAB_13
 com.riotapps.wordbase.utils.Constants: boolean HIDE_ALL_ADS
 com.riotapps.wordbase.utils.Constants: boolean INTERSTITIAL_ADMOB
 com.riotapps.wordbase.utils.Constants: boolean INTERSTITIAL_CHARTBOOST
@@ -7163,11 +7165,6 @@ com.riotapps.wordbase.utils.Constants: int MENU_BADGES
 com.riotapps.wordbase.utils.Constants: int MENU_RULES
 com.riotapps.wordbase.utils.Constants: int MENU_STORE
 com.riotapps.wordbase.utils.Constants: int MENU_SHARE
-com.riotapps.wordbase.utils.Constants: java.lang.String SKU_GOOGLE_PLAY_HOPPER_PEEK
-com.riotapps.wordbase.utils.Constants: java.lang.String SKU_GOOGLE_PLAY_PREMIUM_UPGRADE
-com.riotapps.wordbase.utils.Constants: java.lang.String SKU_GOOGLE_PLAY_WORD_DEFINITIONS
-com.riotapps.wordbase.utils.Constants: java.lang.String SKU_GOOGLE_PLAY_HIDE_INTERSTITIAL
-com.riotapps.wordbase.utils.Constants: java.lang.String SKU_GOOGLE_PLAY_WORD_HINTS
 com.riotapps.wordbase.utils.Constants: int RETURN_CODE_HOPPER_PEEK_CLOSE
 com.riotapps.wordbase.utils.Constants: int RETURN_CODE_CUSTOM_DIALOG_OK_CLICKED
 com.riotapps.wordbase.utils.Constants: int RETURN_CODE_CUSTOM_DIALOG_CANCEL_CLICKED
@@ -7465,6 +7462,9 @@ com.riotapps.wordbase.utils.WordLookup: void Get(java.lang.String[])
 com.riotapps.words.About
 com.riotapps.words.About: About()
 com.riotapps.words.About: void onCreate(android.os.Bundle)
+com.riotapps.words.About: void loadViews()
+com.riotapps.words.About: void onClick(android.view.View)
+com.riotapps.words.About: void setupFonts()
 com.riotapps.words.BuildConfig
 com.riotapps.words.BuildConfig: boolean DEBUG
 com.riotapps.words.BuildConfig: BuildConfig()
@@ -7628,6 +7628,7 @@ com.riotapps.words.R$drawable: int progress_inner_background
 com.riotapps.words.R$drawable: int sbd_bg
 com.riotapps.words.R$drawable: int secondary_button_main
 com.riotapps.words.R$drawable: int spinner_small
+com.riotapps.words.R$drawable: int splash_left
 com.riotapps.words.R$drawable: int store_item_check
 com.riotapps.words.R$drawable: int tab_content_background
 com.riotapps.words.R$drawable: int tab_form_background
@@ -7680,6 +7681,7 @@ com.riotapps.words.R$id: int bSkip
 com.riotapps.words.R$id: int bStore
 com.riotapps.words.R$id: int bSwap
 com.riotapps.words.R$id: int bWordDefinitionsPrice
+com.riotapps.words.R$id: int bWordHintsPrice
 com.riotapps.words.R$id: int bonus2l
 com.riotapps.words.R$id: int bonus2l_img
 com.riotapps.words.R$id: int bonus2w
@@ -7707,6 +7709,7 @@ com.riotapps.words.R$id: int ivOpponent
 com.riotapps.words.R$id: int ivPlayer
 com.riotapps.words.R$id: int ivPremiumUpgradePurchased
 com.riotapps.words.R$id: int ivWordDefinitionsPurchased
+com.riotapps.words.R$id: int ivWordHintsPurchased
 com.riotapps.words.R$id: int ivWordnik
 com.riotapps.words.R$id: int llBottomBorder
 com.riotapps.words.R$id: int llButtons
@@ -7720,6 +7723,7 @@ com.riotapps.words.R$id: int llOpponentRecordWrapper
 com.riotapps.words.R$id: int llOpponents
 com.riotapps.words.R$id: int llPremiumUpgradePriceWrapper
 com.riotapps.words.R$id: int llWordDefinitionsPriceWrapper
+com.riotapps.words.R$id: int llWordHintsPriceWrapper
 com.riotapps.words.R$id: int logo
 com.riotapps.words.R$id: int logoArea
 com.riotapps.words.R$id: int lookup_item_id
@@ -7744,6 +7748,7 @@ com.riotapps.words.R$id: int rlLineItem
 com.riotapps.words.R$id: int rlNoAds
 com.riotapps.words.R$id: int rlPremiumUpgrade
 com.riotapps.words.R$id: int rlWordDefinitions
+com.riotapps.words.R$id: int rlWordHints
 com.riotapps.words.R$id: int scoreboard
 com.riotapps.words.R$id: int scoreboardNumbers
 com.riotapps.words.R$id: int scroller
@@ -7755,6 +7760,8 @@ com.riotapps.words.R$id: int tvAttribution
 com.riotapps.words.R$id: int tvBuildNumber
 com.riotapps.words.R$id: int tvDefinition
 com.riotapps.words.R$id: int tvDeviceSpecs
+com.riotapps.words.R$id: int tvFBLike
+com.riotapps.words.R$id: int tvFBPageLink
 com.riotapps.words.R$id: int tvFullRulesBasics_0
 com.riotapps.words.R$id: int tvFullRulesBasics_1
 com.riotapps.words.R$id: int tvFullRulesBasics_2
@@ -7900,6 +7907,8 @@ com.riotapps.words.R$id: int tvVersionName
 com.riotapps.words.R$id: int tvWord
 com.riotapps.words.R$id: int tvWordDefinitionsDescription
 com.riotapps.words.R$id: int tvWordDefinitionsTitle
+com.riotapps.words.R$id: int tvWordHintsDescription
+com.riotapps.words.R$id: int tvWordHintsTitle
 com.riotapps.words.R$id: int tvYourDraws
 com.riotapps.words.R$id: int tvYourLosses
 com.riotapps.words.R$id: int tvYourWins
@@ -7934,6 +7943,7 @@ com.riotapps.words.R$layout: int main
 com.riotapps.words.R$layout: int opponent_item
 com.riotapps.words.R$layout: int played_word_dialog
 com.riotapps.words.R$layout: int progress
+com.riotapps.words.R$layout: int proguardtemp
 com.riotapps.words.R$layout: int scoreboardlayout
 com.riotapps.words.R$layout: int splash
 com.riotapps.words.R$layout: int store
@@ -7964,10 +7974,17 @@ com.riotapps.words.R$string: int IAB_6
 com.riotapps.words.R$string: int IAB_7
 com.riotapps.words.R$string: int IAB_8
 com.riotapps.words.R$string: int IAB_9
+com.riotapps.words.R$string: int SKU_GOOGLE_PLAY_HIDE_INTERSTITIAL
+com.riotapps.words.R$string: int SKU_GOOGLE_PLAY_HOPPER_PEEK
+com.riotapps.words.R$string: int SKU_GOOGLE_PLAY_PREMIUM_UPGRADE
+com.riotapps.words.R$string: int SKU_GOOGLE_PLAY_WORD_DEFINITIONS
+com.riotapps.words.R$string: int SKU_GOOGLE_PLAY_WORD_HINTS
 com.riotapps.words.R$string: int a_day_ago
 com.riotapps.words.R$string: int about_a_minute_ago
 com.riotapps.words.R$string: int about_build_number
 com.riotapps.words.R$string: int about_device_specs
+com.riotapps.words.R$string: int about_fb_like
+com.riotapps.words.R$string: int about_fb_link
 com.riotapps.words.R$string: int about_main
 com.riotapps.words.R$string: int about_support
 com.riotapps.words.R$string: int about_support_link
@@ -8235,6 +8252,8 @@ com.riotapps.words.R$string: int store_item_premium_upgrade_description
 com.riotapps.words.R$string: int store_item_premium_upgrade_title
 com.riotapps.words.R$string: int store_item_word_definitions_description
 com.riotapps.words.R$string: int store_item_word_definitions_title
+com.riotapps.words.R$string: int store_item_word_hints_description
+com.riotapps.words.R$string: int store_item_word_hints_title
 com.riotapps.words.R$string: int thank_you
 com.riotapps.words.R$string: int tile_2L
 com.riotapps.words.R$string: int tile_2W
@@ -8329,6 +8348,7 @@ com.riotapps.words.R$style: int ScoreboardPlayerStyle
 com.riotapps.words.R$style: int ScoreboardScoreStyle
 com.riotapps.words.R$style: int ScoreboardTurnStyle
 com.riotapps.words.R$style: int SplashLayoutStyle
+com.riotapps.words.R$style: int SplashLeftStyle
 com.riotapps.words.R$style: int SplashLogoStyle
 com.riotapps.words.R$style: int StoreItemCheckStyle
 com.riotapps.words.R$style: int StoreItemPriceButtonStyle

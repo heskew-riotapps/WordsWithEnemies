@@ -274,8 +274,6 @@ com.google.gson.internal.bind.TypeAdapters$23:
 com.google.gson.stream.JsonReader:
     private static final java.lang.String TRUE
     private static final java.lang.String FALSE
-com.riotapps.wordbase.About:
-    84:84:private void setResources()
 com.riotapps.wordbase.GameSurface:
     private com.riotapps.wordbase.utils.ImageFetcher imageLoader
     private android.view.SurfaceView surfaceView
