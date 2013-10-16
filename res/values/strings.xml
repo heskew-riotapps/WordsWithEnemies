@@ -60,9 +60,9 @@
 	<string name="purchase_thanks_word_hints">We hope you enjoy your unlimited usage of Tinny\'s Hints!</string>
 	
 	<string name="store_item_premium_upgrade_title">Premium Upgrade</string>
-	<string name="store_item_premium_upgrade_description">Enjoy the purest WordSmash experience.  No third-party ads at all.  
+	<string name="store_item_premium_upgrade_description">Enjoy the purest Words With Enemies experience.  No third-party ads at all.  
 	    Unlimited word definition lookup for any played word. 
-	    Unlimited peeks at the hopper.  Unlimited games with Tinny's Hints.</string>
+	    Unlimited peeks at the hopper.  Unlimited games with Tinny\'s Hints.</string>
     <string name="store_item_word_definitions_title">Word Definition Lookups</string>
 	<string name="store_item_word_definitions_description">Lookup the definition of any played word. Learn as you play! Unlimited usage.</string>
     <string name="store_item_no_ads_title">No Ads Between Moves</string>
