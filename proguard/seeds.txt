@@ -5055,7 +5055,6 @@ com.riotapps.wordbase.R$drawable: int form_top_background
 com.riotapps.wordbase.R$drawable: int gameboard_btn_area_bg
 com.riotapps.wordbase.R$drawable: int gameboard_logo
 com.riotapps.wordbase.R$drawable: int gameboard_tray_bg
-com.riotapps.wordbase.R$drawable: int group_1_skill_level_1_a_main____
 com.riotapps.wordbase.R$drawable: int group_1_skill_level_1_main
 com.riotapps.wordbase.R$drawable: int group_1_skill_level_1_small
 com.riotapps.wordbase.R$drawable: int group_1_skill_level_2_main
@@ -5081,7 +5080,7 @@ com.riotapps.wordbase.R$drawable: int progress_background
 com.riotapps.wordbase.R$drawable: int progress_inner_background
 com.riotapps.wordbase.R$drawable: int sbd_bg
 com.riotapps.wordbase.R$drawable: int secondary_button_main
-com.riotapps.wordbase.R$drawable: int spinner_small
+com.riotapps.wordbase.R$drawable: int spinner
 com.riotapps.wordbase.R$drawable: int store_item_check
 com.riotapps.wordbase.R$drawable: int tab_content_background
 com.riotapps.wordbase.R$drawable: int tab_form_background
@@ -5781,6 +5780,8 @@ com.riotapps.wordbase.R$style: int OpponentRecordStyle
 com.riotapps.wordbase.R$style: int OpponentRecordWrapperStyle
 com.riotapps.wordbase.R$style: int OpponentSkillLevelStyle
 com.riotapps.wordbase.R$style: int PlayedWordPlayerImageStyle
+com.riotapps.wordbase.R$style: int ProgressBarStyle
+com.riotapps.wordbase.R$style: int ProgressTextStyle
 com.riotapps.wordbase.R$style: int RulesTableRowStyle
 com.riotapps.wordbase.R$style: int ScoreboardBadgeStyle
 com.riotapps.wordbase.R$style: int ScoreboardImageStyle
@@ -5802,6 +5803,10 @@ com.riotapps.wordbase.R$style: int StoreItemPriceButtonStyle
 com.riotapps.wordbase.R$style: int StoreItemPriceWrapperStyle
 com.riotapps.wordbase.R$style: int StoreItemTitleStyle
 com.riotapps.wordbase.R$style: int SubTextStyle
+com.riotapps.wordbase.R$style: int SwapLetterStyle
+com.riotapps.wordbase.R$style: int SwapTileStyle
+com.riotapps.wordbase.R$style: int SwapTitleStyle
+com.riotapps.wordbase.R$style: int SwapValueStyle
 com.riotapps.wordbase.R$style: int TabContentBackgroundStyle
 com.riotapps.wordbase.R$style: int TabFormBackgroundStyle
 com.riotapps.wordbase.R$style: int TextClickableStyle
@@ -7567,7 +7572,6 @@ com.riotapps.words.R$drawable: int alert_background
 com.riotapps.words.R$drawable: int alert_bottom_selector
 com.riotapps.words.R$drawable: int bg
 com.riotapps.words.R$drawable: int bg6
-com.riotapps.words.R$drawable: int bg_11
 com.riotapps.words.R$drawable: int blank_tile_bg
 com.riotapps.words.R$drawable: int bonus_2l
 com.riotapps.words.R$drawable: int bonus_2w
@@ -7601,7 +7605,6 @@ com.riotapps.words.R$drawable: int form_top_background
 com.riotapps.words.R$drawable: int gameboard_btn_area_bg
 com.riotapps.words.R$drawable: int gameboard_logo
 com.riotapps.words.R$drawable: int gameboard_tray_bg
-com.riotapps.words.R$drawable: int group_1_skill_level_1_a_main____
 com.riotapps.words.R$drawable: int group_1_skill_level_1_main
 com.riotapps.words.R$drawable: int group_1_skill_level_1_small
 com.riotapps.words.R$drawable: int group_1_skill_level_2_main
@@ -7627,7 +7630,7 @@ com.riotapps.words.R$drawable: int progress_background
 com.riotapps.words.R$drawable: int progress_inner_background
 com.riotapps.words.R$drawable: int sbd_bg
 com.riotapps.words.R$drawable: int secondary_button_main
-com.riotapps.words.R$drawable: int spinner_small
+com.riotapps.words.R$drawable: int spinner
 com.riotapps.words.R$drawable: int splash_left
 com.riotapps.words.R$drawable: int store_item_check
 com.riotapps.words.R$drawable: int tab_content_background
@@ -8333,6 +8336,8 @@ com.riotapps.words.R$style: int OpponentRecordStyle
 com.riotapps.words.R$style: int OpponentRecordWrapperStyle
 com.riotapps.words.R$style: int OpponentSkillLevelStyle
 com.riotapps.words.R$style: int PlayedWordPlayerImageStyle
+com.riotapps.words.R$style: int ProgressBarStyle
+com.riotapps.words.R$style: int ProgressTextStyle
 com.riotapps.words.R$style: int RulesTableRowStyle
 com.riotapps.words.R$style: int ScoreboardBadgeStyle
 com.riotapps.words.R$style: int ScoreboardImageStyle
@@ -8355,6 +8360,10 @@ com.riotapps.words.R$style: int StoreItemPriceButtonStyle
 com.riotapps.words.R$style: int StoreItemPriceWrapperStyle
 com.riotapps.words.R$style: int StoreItemTitleStyle
 com.riotapps.words.R$style: int SubTextStyle
+com.riotapps.words.R$style: int SwapLetterStyle
+com.riotapps.words.R$style: int SwapTileStyle
+com.riotapps.words.R$style: int SwapTitleStyle
+com.riotapps.words.R$style: int SwapValueStyle
 com.riotapps.words.R$style: int TabContentBackgroundStyle
 com.riotapps.words.R$style: int TabFormBackgroundStyle
 com.riotapps.words.R$style: int TextClickableStyle

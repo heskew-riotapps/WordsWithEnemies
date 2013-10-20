@@ -7874,9 +7874,9 @@ com.riotapps.wordbase.GameSurface -> com.riotapps.wordbase.GameSurface:
     3015:3016:void trackEvent(java.lang.String,java.lang.String,int) -> a
     3020:3027:void trackEvent(java.lang.String,java.lang.String,java.lang.String,long) -> trackEvent
     3031:3127:void dialogClose(int) -> dialogClose
-    3130:3148:void dialogClose(int,java.lang.String) -> dialogClose
-    3151:3172:void setHintChoice(java.lang.String) -> a
-    3177:3196:void setupFonts() -> y
+    3130:3149:void dialogClose(int,java.lang.String) -> dialogClose
+    3152:3173:void setHintChoice(java.lang.String) -> a
+    3178:3197:void setupFonts() -> y
     83:83:java.lang.String access$0() -> b
     89:89:com.chartboost.sdk.Chartboost access$1(com.riotapps.wordbase.GameSurface) -> a
     172:172:com.riotapps.wordbase.hooks.Game access$2(com.riotapps.wordbase.GameSurface) -> b
@@ -7931,14 +7931,14 @@ com.riotapps.wordbase.GameSurface$4 -> ny:
     1754:1760:void run() -> run
 com.riotapps.wordbase.GameSurface$AutoplayTask -> nz:
     com.riotapps.wordbase.GameSurface this$0 -> a
-    3202:3213:java.lang.Void doInBackground(java.lang.Void[]) -> a
-    3222:3223:void onPostExecute(java.lang.Void) -> a
+    3203:3214:java.lang.Void doInBackground(java.lang.Void[]) -> a
+    3223:3224:void onPostExecute(java.lang.Void) -> a
     1:1:void onPostExecute(java.lang.Object) -> onPostExecute
     1:1:java.lang.Object doInBackground(java.lang.Object[]) -> doInBackground
 com.riotapps.wordbase.GameSurface$PreAutoplayTask -> oa:
     com.riotapps.wordbase.GameSurface this$0 -> a
-    3233:3246:java.lang.Void doInBackground(java.lang.Void[]) -> a
-    3256:3259:void onPostExecute(java.lang.Void) -> a
+    3234:3247:java.lang.Void doInBackground(java.lang.Void[]) -> a
+    3257:3260:void onPostExecute(java.lang.Void) -> a
     1:1:void onPostExecute(java.lang.Object) -> onPostExecute
     1:1:java.lang.Object doInBackground(java.lang.Object[]) -> doInBackground
 com.riotapps.wordbase.GameSurface$SwapDialog -> ob:
@@ -7983,8 +7983,8 @@ com.riotapps.wordbase.GameSurface$SwapDialog$3 -> oe:
     2474:2479:void onCancel(android.content.DialogInterface) -> onCancel
 com.riotapps.wordbase.GameSurface$WordHintTask -> of:
     com.riotapps.wordbase.GameSurface this$0 -> a
-    3269:3313:java.lang.Boolean doInBackground(java.lang.Void[]) -> a
-    3323:3326:void onPostExecute(java.lang.Boolean) -> a
+    3270:3314:java.lang.Boolean doInBackground(java.lang.Void[]) -> a
+    3324:3327:void onPostExecute(java.lang.Boolean) -> a
     1:1:void onPostExecute(java.lang.Object) -> onPostExecute
     1:1:java.lang.Object doInBackground(java.lang.Object[]) -> doInBackground
 com.riotapps.wordbase.GameSurface$handleButtonSwitchRunnable -> og:
@@ -8138,7 +8138,6 @@ com.riotapps.wordbase.R$drawable -> com.riotapps.wordbase.R$drawable:
     int gameboard_btn_area_bg -> gameboard_btn_area_bg
     int gameboard_logo -> gameboard_logo
     int gameboard_tray_bg -> gameboard_tray_bg
-    int group_1_skill_level_1_a_main____ -> group_1_skill_level_1_a_main____
     int group_1_skill_level_1_main -> group_1_skill_level_1_main
     int group_1_skill_level_1_small -> group_1_skill_level_1_small
     int group_1_skill_level_2_main -> group_1_skill_level_2_main
@@ -8164,7 +8163,7 @@ com.riotapps.wordbase.R$drawable -> com.riotapps.wordbase.R$drawable:
     int progress_inner_background -> progress_inner_background
     int sbd_bg -> sbd_bg
     int secondary_button_main -> secondary_button_main
-    int spinner_small -> spinner_small
+    int spinner -> spinner
     int store_item_check -> store_item_check
     int tab_content_background -> tab_content_background
     int tab_form_background -> tab_form_background
@@ -8858,6 +8857,8 @@ com.riotapps.wordbase.R$style -> com.riotapps.wordbase.R$style:
     int OpponentRecordWrapperStyle -> OpponentRecordWrapperStyle
     int OpponentSkillLevelStyle -> OpponentSkillLevelStyle
     int PlayedWordPlayerImageStyle -> PlayedWordPlayerImageStyle
+    int ProgressBarStyle -> ProgressBarStyle
+    int ProgressTextStyle -> ProgressTextStyle
     int RulesTableRowStyle -> RulesTableRowStyle
     int ScoreboardBadgeStyle -> ScoreboardBadgeStyle
     int ScoreboardImageStyle -> ScoreboardImageStyle
@@ -8879,6 +8880,10 @@ com.riotapps.wordbase.R$style -> com.riotapps.wordbase.R$style:
     int StoreItemPriceWrapperStyle -> StoreItemPriceWrapperStyle
     int StoreItemTitleStyle -> StoreItemTitleStyle
     int SubTextStyle -> SubTextStyle
+    int SwapLetterStyle -> SwapLetterStyle
+    int SwapTileStyle -> SwapTileStyle
+    int SwapTitleStyle -> SwapTitleStyle
+    int SwapValueStyle -> SwapValueStyle
     int TabContentBackgroundStyle -> TabContentBackgroundStyle
     int TabFormBackgroundStyle -> TabFormBackgroundStyle
     int TextClickableStyle -> TextClickableStyle
@@ -11345,7 +11350,6 @@ com.riotapps.words.R$drawable -> com.riotapps.words.R$drawable:
     int alert_bottom_selector -> alert_bottom_selector
     int bg -> bg
     int bg6 -> bg6
-    int bg_11 -> bg_11
     int blank_tile_bg -> blank_tile_bg
     int bonus_2l -> bonus_2l
     int bonus_2w -> bonus_2w
@@ -11379,7 +11383,6 @@ com.riotapps.words.R$drawable -> com.riotapps.words.R$drawable:
     int gameboard_btn_area_bg -> gameboard_btn_area_bg
     int gameboard_logo -> gameboard_logo
     int gameboard_tray_bg -> gameboard_tray_bg
-    int group_1_skill_level_1_a_main____ -> group_1_skill_level_1_a_main____
     int group_1_skill_level_1_main -> group_1_skill_level_1_main
     int group_1_skill_level_1_small -> group_1_skill_level_1_small
     int group_1_skill_level_2_main -> group_1_skill_level_2_main
@@ -11405,7 +11408,7 @@ com.riotapps.words.R$drawable -> com.riotapps.words.R$drawable:
     int progress_inner_background -> progress_inner_background
     int sbd_bg -> sbd_bg
     int secondary_button_main -> secondary_button_main
-    int spinner_small -> spinner_small
+    int spinner -> spinner
     int splash_left -> splash_left
     int store_item_check -> store_item_check
     int tab_content_background -> tab_content_background
@@ -12105,6 +12108,8 @@ com.riotapps.words.R$style -> com.riotapps.words.R$style:
     int OpponentRecordWrapperStyle -> OpponentRecordWrapperStyle
     int OpponentSkillLevelStyle -> OpponentSkillLevelStyle
     int PlayedWordPlayerImageStyle -> PlayedWordPlayerImageStyle
+    int ProgressBarStyle -> ProgressBarStyle
+    int ProgressTextStyle -> ProgressTextStyle
     int RulesTableRowStyle -> RulesTableRowStyle
     int ScoreboardBadgeStyle -> ScoreboardBadgeStyle
     int ScoreboardImageStyle -> ScoreboardImageStyle
@@ -12127,6 +12132,10 @@ com.riotapps.words.R$style -> com.riotapps.words.R$style:
     int StoreItemPriceWrapperStyle -> StoreItemPriceWrapperStyle
     int StoreItemTitleStyle -> StoreItemTitleStyle
     int SubTextStyle -> SubTextStyle
+    int SwapLetterStyle -> SwapLetterStyle
+    int SwapTileStyle -> SwapTileStyle
+    int SwapTitleStyle -> SwapTitleStyle
+    int SwapValueStyle -> SwapValueStyle
     int TabContentBackgroundStyle -> TabContentBackgroundStyle
     int TabFormBackgroundStyle -> TabFormBackgroundStyle
     int TextClickableStyle -> TextClickableStyle

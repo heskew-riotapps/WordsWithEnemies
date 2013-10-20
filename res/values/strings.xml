@@ -72,8 +72,8 @@
 	     as well as in your opponent\'s tray.  Unlimited usage.</string>	
 	<string name="store_item_word_hints_title">Tinny\'s Hints</string>
 	<string name="store_item_word_hints_description">Twice per game, tap into Tinny the Robot\'s giant vocabulary to help find a word when you are stuck! Unlimited games.</string>
-	
-		
+		<string name="share_subject">Words With Enemies</string>
+		<string name="share_message">Check out Words With Enemies for Android in the Google Play store.  Test your crossword skills against some super smart monsters.  Always play at your own pace, as fast as you desire.</string>
 	<string name="about_main">Words With Enemies by RiotApps</string>
 	<string name="about_version">version: %s</string>		
 	<string name="about_build_number">build: %s</string>		
@@ -82,6 +82,8 @@
 	<string name="about_support_link">http://www.getsatisfaction.com/wordswithenemies</string>	 
 	<string name="about_fb_like">Please like us on Facebook</string>	
 	<string name="about_fb_link">http://www.facebook.com/pages/words-with-enemies</string>	
+	
+	<string name="main_menu_about">About Words With Enemies</string>
 	
 	<string name="full_rules_1">The idea is to score more points than your opponent by forming valid words out of the letters in your tray combined with the letters 
  	    		   on the board.  Letters must be placed on the board in a single axis, either horizontally or vertically.  Letters can played played on top of previously played letters.</string>
@@ -139,4 +141,6 @@
 	</string>
  
 	<string name="game_play_invalid_start_position">The first played word must have at least one letter placed on a star.</string>
+	
+	 <string name="game_last_action_started_context">Have fun and thanks for playing!</string>
 </resources>
