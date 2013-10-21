@@ -7942,30 +7942,27 @@ com.riotapps.wordbase.GameSurface$PreAutoplayTask -> oa:
     1:1:void onPostExecute(java.lang.Object) -> onPostExecute
     1:1:java.lang.Object doInBackground(java.lang.Object[]) -> doInBackground
 com.riotapps.wordbase.GameSurface$SwapDialog -> ob:
-    android.widget.Button bOK -> f
-    android.widget.Button bCancel -> g
-    java.util.List swapped -> h
-    java.util.List letters -> i
-    boolean letter_1 -> j
-    boolean letter_2 -> k
-    boolean letter_3 -> l
-    boolean letter_4 -> m
-    boolean letter_5 -> n
-    boolean letter_6 -> o
-    boolean letter_7 -> p
-    android.widget.TextView tvLetter1 -> q
-    android.widget.TextView tvLetter2 -> r
-    android.widget.TextView tvLetter3 -> s
-    android.widget.TextView tvLetter4 -> t
-    android.widget.TextView tvLetter5 -> u
-    android.widget.TextView tvLetter6 -> v
-    android.widget.TextView tvLetter7 -> w
-    android.view.View layout -> x
+    android.widget.Button bOK -> c
+    android.widget.Button bCancel -> d
+    java.util.List swapped -> e
+    java.util.List letters -> f
+    boolean letter_1 -> g
+    boolean letter_2 -> h
+    boolean letter_3 -> i
+    boolean letter_4 -> j
+    boolean letter_5 -> k
+    boolean letter_6 -> l
+    boolean letter_7 -> m
+    android.widget.TextView tvLetter1 -> n
+    android.widget.TextView tvLetter2 -> o
+    android.widget.TextView tvLetter3 -> p
+    android.widget.TextView tvLetter4 -> q
+    android.widget.TextView tvLetter5 -> r
+    android.widget.TextView tvLetter6 -> s
+    android.widget.TextView tvLetter7 -> t
+    android.view.View layout -> u
     android.content.Context context -> a
-    int fullWidth -> b
-    int tileSize -> c
-    int textSize -> d
-    com.riotapps.wordbase.GameSurface this$0 -> e
+    com.riotapps.wordbase.GameSurface this$0 -> b
     2364:2368:void onCreate(android.os.Bundle) -> onCreate
     2373:2483:void onStart() -> onStart
     2488:2490:void dismiss() -> dismiss
@@ -8839,6 +8836,10 @@ com.riotapps.wordbase.R$style -> com.riotapps.wordbase.R$style:
     int HeaderSubTextStyle -> HeaderSubTextStyle
     int HeaderTextStyle -> HeaderTextStyle
     int HeaderTopLayoutStyle -> HeaderTopLayoutStyle
+    int HintDialogInnerStyle -> HintDialogInnerStyle
+    int HintDialogStyle -> HintDialogStyle
+    int HopperPeekDialogInnerStyle -> HopperPeekDialogInnerStyle
+    int HopperPeekDialogStyle -> HopperPeekDialogStyle
     int InlineHeaderStyle -> InlineHeaderStyle
     int LayoutFormStyle -> LayoutFormStyle
     int LayoutStyle -> LayoutStyle
@@ -8880,6 +8881,8 @@ com.riotapps.wordbase.R$style -> com.riotapps.wordbase.R$style:
     int StoreItemPriceWrapperStyle -> StoreItemPriceWrapperStyle
     int StoreItemTitleStyle -> StoreItemTitleStyle
     int SubTextStyle -> SubTextStyle
+    int SwapDialogInnerStyle -> SwapDialogInnerStyle
+    int SwapDialogStyle -> SwapDialogStyle
     int SwapLetterStyle -> SwapLetterStyle
     int SwapTileStyle -> SwapTileStyle
     int SwapTitleStyle -> SwapTitleStyle
@@ -12090,6 +12093,10 @@ com.riotapps.words.R$style -> com.riotapps.words.R$style:
     int HeaderSubTextStyle -> HeaderSubTextStyle
     int HeaderTextStyle -> HeaderTextStyle
     int HeaderTopLayoutStyle -> HeaderTopLayoutStyle
+    int HintDialogInnerStyle -> HintDialogInnerStyle
+    int HintDialogStyle -> HintDialogStyle
+    int HopperPeekDialogInnerStyle -> HopperPeekDialogInnerStyle
+    int HopperPeekDialogStyle -> HopperPeekDialogStyle
     int InlineHeaderStyle -> InlineHeaderStyle
     int LayoutFormStyle -> LayoutFormStyle
     int LayoutStyle -> LayoutStyle
@@ -12132,6 +12139,8 @@ com.riotapps.words.R$style -> com.riotapps.words.R$style:
     int StoreItemPriceWrapperStyle -> StoreItemPriceWrapperStyle
     int StoreItemTitleStyle -> StoreItemTitleStyle
     int SubTextStyle -> SubTextStyle
+    int SwapDialogInnerStyle -> SwapDialogInnerStyle
+    int SwapDialogStyle -> SwapDialogStyle
     int SwapLetterStyle -> SwapLetterStyle
     int SwapTileStyle -> SwapTileStyle
     int SwapTitleStyle -> SwapTitleStyle

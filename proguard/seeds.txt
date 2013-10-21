@@ -5762,6 +5762,10 @@ com.riotapps.wordbase.R$style: int GameBoardSecondaryButtonStyle
 com.riotapps.wordbase.R$style: int HeaderSubTextStyle
 com.riotapps.wordbase.R$style: int HeaderTextStyle
 com.riotapps.wordbase.R$style: int HeaderTopLayoutStyle
+com.riotapps.wordbase.R$style: int HintDialogInnerStyle
+com.riotapps.wordbase.R$style: int HintDialogStyle
+com.riotapps.wordbase.R$style: int HopperPeekDialogInnerStyle
+com.riotapps.wordbase.R$style: int HopperPeekDialogStyle
 com.riotapps.wordbase.R$style: int InlineHeaderStyle
 com.riotapps.wordbase.R$style: int LayoutFormStyle
 com.riotapps.wordbase.R$style: int LayoutStyle
@@ -5803,6 +5807,8 @@ com.riotapps.wordbase.R$style: int StoreItemPriceButtonStyle
 com.riotapps.wordbase.R$style: int StoreItemPriceWrapperStyle
 com.riotapps.wordbase.R$style: int StoreItemTitleStyle
 com.riotapps.wordbase.R$style: int SubTextStyle
+com.riotapps.wordbase.R$style: int SwapDialogInnerStyle
+com.riotapps.wordbase.R$style: int SwapDialogStyle
 com.riotapps.wordbase.R$style: int SwapLetterStyle
 com.riotapps.wordbase.R$style: int SwapTileStyle
 com.riotapps.wordbase.R$style: int SwapTitleStyle
@@ -8318,6 +8324,10 @@ com.riotapps.words.R$style: int GameBoardSecondaryButtonStyle
 com.riotapps.words.R$style: int HeaderSubTextStyle
 com.riotapps.words.R$style: int HeaderTextStyle
 com.riotapps.words.R$style: int HeaderTopLayoutStyle
+com.riotapps.words.R$style: int HintDialogInnerStyle
+com.riotapps.words.R$style: int HintDialogStyle
+com.riotapps.words.R$style: int HopperPeekDialogInnerStyle
+com.riotapps.words.R$style: int HopperPeekDialogStyle
 com.riotapps.words.R$style: int InlineHeaderStyle
 com.riotapps.words.R$style: int LayoutFormStyle
 com.riotapps.words.R$style: int LayoutStyle
@@ -8360,6 +8370,8 @@ com.riotapps.words.R$style: int StoreItemPriceButtonStyle
 com.riotapps.words.R$style: int StoreItemPriceWrapperStyle
 com.riotapps.words.R$style: int StoreItemTitleStyle
 com.riotapps.words.R$style: int SubTextStyle
+com.riotapps.words.R$style: int SwapDialogInnerStyle
+com.riotapps.words.R$style: int SwapDialogStyle
 com.riotapps.words.R$style: int SwapLetterStyle
 com.riotapps.words.R$style: int SwapTileStyle
 com.riotapps.words.R$style: int SwapTitleStyle

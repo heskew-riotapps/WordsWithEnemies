@@ -40,6 +40,8 @@ Enable automatic exception tracking
         public static final int button_area_background=0x7f080000;
         public static final int button_area_background_color=0x7f080027;
         public static final int button_text_color=0x7f08002c;
+        /**  #FF0000 
+         */
         public static final int button_text_color_off=0x7f080007;
         public static final int button_text_color_on=0x7f080003;
         public static final int content_area_background_color=0x7f08001c;
@@ -80,6 +82,8 @@ Enable automatic exception tracking
         public static final int header_text_color=0x7f080033;
         public static final int inline_header_text_color=0x7f080039;
         public static final int list_text_background_color=0x7f080032;
+        /**  FF0000  
+         */
         public static final int logo_area_bottom_background_color=0x7f080023;
         public static final int main_opponent_choose_background=0x7f080005;
         public static final int main_opponent_choose_text=0x7f080006;
@@ -97,9 +101,10 @@ custom color for pressed state
         public static final int progress_text_color=0x7f08002a;
         public static final int scoreboard_background=0x7f080001;
         /**  FF0000  
- FF0000  
          */
         public static final int scoreboard_text_color=0x7f080021;
+        /**  #fff5ee 
+         */
         public static final int scoreboard_text_last_played_color=0x7f080022;
         public static final int secondary_button_text_color=0x7f08002d;
         public static final int store_item_divider_color=0x7f080034;
@@ -110,7 +115,7 @@ custom color for pressed state
  previously 3366dd 
          */
         public static final int title_bar_background_color=0x7f080020;
-        /**  64908A 
+        /**  d42931 ae1d18 CD96CD DB70DB 024bc4 137ccd 64908A 
          */
         public static final int tray_background=0x7f080002;
     }
@@ -887,13 +892,13 @@ Replace placeholder ID with your tracking ID
     
  API 14 theme customizations can go here. 
          */
-        public static final int AppBaseTheme=0x7f050045;
+        public static final int AppBaseTheme=0x7f050049;
         /**  Application theme. 
  All customizations that are NOT specific to a particular API-level can go here. 
  Application theme. 
  All customizations that are NOT specific to a particular API-level can go here. 
          */
-        public static final int AppTheme=0x7f050046;
+        public static final int AppTheme=0x7f05004a;
         public static final int BadgeLineStyle=0x7f050002;
         public static final int ButtonStyle=0x7f050003;
         public static final int ContentAreaLinkStyle=0x7f050004;
@@ -921,65 +926,71 @@ Replace placeholder ID with your tracking ID
         public static final int HeaderSubTextStyle=0x7f05001a;
         public static final int HeaderTextStyle=0x7f05001b;
         public static final int HeaderTopLayoutStyle=0x7f05001c;
-        public static final int InlineHeaderStyle=0x7f05001d;
-        public static final int LayoutFormStyle=0x7f050020;
-        public static final int LayoutStyle=0x7f050021;
-        public static final int LayoutStyleThin=0x7f05001e;
-        public static final int LayoutThinStyle=0x7f05001f;
-        public static final int LetterValueStyle=0x7f050022;
-        public static final int MainLandingButtonStyle=0x7f050023;
-        public static final int MainScrollStyle=0x7f050024;
-        public static final int MainStyle=0x7f050025;
-        public static final int MainWinsStyle=0x7f050026;
-        public static final int MiniTextStyle=0x7f050027;
-        public static final int OpponentChooseStyle=0x7f050028;
-        public static final int OpponentImageListStyle=0x7f050029;
-        public static final int OpponentNameStyle=0x7f05002a;
-        public static final int OpponentRecordStyle=0x7f05002b;
-        public static final int OpponentRecordWrapperStyle=0x7f05002c;
-        public static final int OpponentSkillLevelStyle=0x7f05002d;
-        public static final int PlayedWordPlayerImageStyle=0x7f05002e;
-        public static final int ProgressBarStyle=0x7f05002f;
-        public static final int ProgressTextStyle=0x7f050030;
-        public static final int RulesTableRowStyle=0x7f050031;
-        public static final int ScoreboardBadgeStyle=0x7f050032;
-        public static final int ScoreboardImageStyle=0x7f050033;
-        public static final int ScoreboardLayoutStyle=0x7f050034;
-        public static final int ScoreboardLettersLeftStyle=0x7f050035;
-        public static final int ScoreboardNumPointsStyle=0x7f050036;
-        public static final int ScoreboardOpponentNameStyle=0x7f050037;
-        public static final int ScoreboardOpponentScoreStyle=0x7f050038;
-        public static final int ScoreboardOptionStyle=0x7f050039;
-        public static final int ScoreboardPlayerNameStyle=0x7f05003a;
-        public static final int ScoreboardPlayerScoreStyle=0x7f05003b;
-        public static final int ScoreboardPlayerStyle=0x7f05003c;
-        public static final int ScoreboardScoreStyle=0x7f05003d;
-        public static final int ScoreboardTurnStyle=0x7f05003e;
-        public static final int SplashLayoutStyle=0x7f05003f;
-        public static final int SplashLeftStyle=0x7f050059;
-        public static final int SplashLogoStyle=0x7f050040;
-        public static final int StoreItemCheckStyle=0x7f050041;
-        public static final int StoreItemPriceButtonStyle=0x7f050042;
-        public static final int StoreItemPriceWrapperStyle=0x7f050043;
-        public static final int StoreItemTitleStyle=0x7f050044;
-        public static final int SubTextStyle=0x7f050047;
-        public static final int SwapLetterStyle=0x7f050048;
-        public static final int SwapTileStyle=0x7f050049;
-        public static final int SwapTitleStyle=0x7f05004a;
-        public static final int SwapValueStyle=0x7f05004b;
-        public static final int TabContentBackgroundStyle=0x7f05004c;
-        public static final int TabFormBackgroundStyle=0x7f05004d;
-        public static final int TextClickableStyle=0x7f05004e;
-        public static final int TextLargeStyle=0x7f05004f;
-        public static final int TextLineItemCenteredStyle=0x7f050050;
-        public static final int TextLineItemStyle=0x7f050051;
-        public static final int TextMiniStyle=0x7f050052;
-        public static final int TextStyle=0x7f050053;
-        public static final int TopLogoAreaBottomStyle=0x7f050054;
-        public static final int TopLogoAreaStyle=0x7f050055;
-        public static final int TopLogoBoardStyle=0x7f050056;
-        public static final int TopLogoNoContextStyle=0x7f050057;
-        public static final int TopLogoStyle=0x7f050058;
+        public static final int HintDialogInnerStyle=0x7f05001d;
+        public static final int HintDialogStyle=0x7f05001e;
+        public static final int HopperPeekDialogInnerStyle=0x7f05001f;
+        public static final int HopperPeekDialogStyle=0x7f050020;
+        public static final int InlineHeaderStyle=0x7f050021;
+        public static final int LayoutFormStyle=0x7f050024;
+        public static final int LayoutStyle=0x7f050025;
+        public static final int LayoutStyleThin=0x7f050022;
+        public static final int LayoutThinStyle=0x7f050023;
+        public static final int LetterValueStyle=0x7f050026;
+        public static final int MainLandingButtonStyle=0x7f050027;
+        public static final int MainScrollStyle=0x7f050028;
+        public static final int MainStyle=0x7f050029;
+        public static final int MainWinsStyle=0x7f05002a;
+        public static final int MiniTextStyle=0x7f05002b;
+        public static final int OpponentChooseStyle=0x7f05002c;
+        public static final int OpponentImageListStyle=0x7f05002d;
+        public static final int OpponentNameStyle=0x7f05002e;
+        public static final int OpponentRecordStyle=0x7f05002f;
+        public static final int OpponentRecordWrapperStyle=0x7f050030;
+        public static final int OpponentSkillLevelStyle=0x7f050031;
+        public static final int PlayedWordPlayerImageStyle=0x7f050032;
+        public static final int ProgressBarStyle=0x7f050033;
+        public static final int ProgressTextStyle=0x7f050034;
+        public static final int RulesTableRowStyle=0x7f050035;
+        public static final int ScoreboardBadgeStyle=0x7f050036;
+        public static final int ScoreboardImageStyle=0x7f050037;
+        public static final int ScoreboardLayoutStyle=0x7f050038;
+        public static final int ScoreboardLettersLeftStyle=0x7f050039;
+        public static final int ScoreboardNumPointsStyle=0x7f05003a;
+        public static final int ScoreboardOpponentNameStyle=0x7f05003b;
+        public static final int ScoreboardOpponentScoreStyle=0x7f05003c;
+        public static final int ScoreboardOptionStyle=0x7f05003d;
+        public static final int ScoreboardPlayerNameStyle=0x7f05003e;
+        public static final int ScoreboardPlayerScoreStyle=0x7f05003f;
+        public static final int ScoreboardPlayerStyle=0x7f050040;
+        public static final int ScoreboardScoreStyle=0x7f050041;
+        public static final int ScoreboardTurnStyle=0x7f050042;
+        public static final int SplashLayoutStyle=0x7f050043;
+        public static final int SplashLeftStyle=0x7f05005f;
+        public static final int SplashLogoStyle=0x7f050044;
+        public static final int StoreItemCheckStyle=0x7f050045;
+        public static final int StoreItemPriceButtonStyle=0x7f050046;
+        public static final int StoreItemPriceWrapperStyle=0x7f050047;
+        public static final int StoreItemTitleStyle=0x7f050048;
+        public static final int SubTextStyle=0x7f05004b;
+        public static final int SwapDialogInnerStyle=0x7f05004c;
+        public static final int SwapDialogStyle=0x7f05004d;
+        public static final int SwapLetterStyle=0x7f05004e;
+        public static final int SwapTileStyle=0x7f05004f;
+        public static final int SwapTitleStyle=0x7f050050;
+        public static final int SwapValueStyle=0x7f050051;
+        public static final int TabContentBackgroundStyle=0x7f050052;
+        public static final int TabFormBackgroundStyle=0x7f050053;
+        public static final int TextClickableStyle=0x7f050054;
+        public static final int TextLargeStyle=0x7f050055;
+        public static final int TextLineItemCenteredStyle=0x7f050056;
+        public static final int TextLineItemStyle=0x7f050057;
+        public static final int TextMiniStyle=0x7f050058;
+        public static final int TextStyle=0x7f050059;
+        public static final int TopLogoAreaBottomStyle=0x7f05005a;
+        public static final int TopLogoAreaStyle=0x7f05005b;
+        public static final int TopLogoBoardStyle=0x7f05005c;
+        public static final int TopLogoNoContextStyle=0x7f05005d;
+        public static final int TopLogoStyle=0x7f05005e;
     }
     public static final class styleable {
         /** Attributes that can be used with a TypefacedTextView.

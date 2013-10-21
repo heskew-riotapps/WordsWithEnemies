@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="button_area_background">#ee5b92</color>
-    <color name="scoreboard_background">#137ccd</color> <!-- 64908A -->
+    <color name="button_area_background">#ee5b92</color> 
+    <color name="scoreboard_background">#e03b7d</color> <!-- d42931 ae1d18 CD96CD DB70DB 024bc4 137ccd 64908A -->
     <color name="tray_background">#29cdf0</color>
 	<color name="button_text_color_on">#fff5ee</color>
 	<color name="field_background">#cada39</color>
 	<color name="main_opponent_choose_background">#cada39</color>
  	<color name="main_opponent_choose_text">#d62a62</color>
+ 	  <color name="scoreboard_text_color">#ffffff</color> <!-- #fff5ee -->
+    <color name="scoreboard_text_last_played_color">#FF0000</color> <!-- #FF0000 -->
 	
  
 	<color name="button_text_color_off">#790909</color>
@@ -41,8 +43,7 @@
     <color name="form_border_color">#3366dd</color> <!-- previously 3366dd -->  
     <color name="title_bar_background_color">#FF0000</color><!-- FF0000  -->
  
-    <color name="scoreboard_text_color">#fff5ee</color>
-    <color name="scoreboard_text_last_played_color">#FF0000</color>
+  
  
     <color name="logo_area_bottom_background_color">#3366dd</color> 
     <color name="form_header_text_color">#1874CD</color> 

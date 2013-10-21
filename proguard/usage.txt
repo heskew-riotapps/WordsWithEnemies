@@ -278,6 +278,10 @@ com.riotapps.wordbase.GameSurface:
     private com.riotapps.wordbase.utils.ImageFetcher imageLoader
     private android.view.SurfaceView surfaceView
     private com.google.ads.InterstitialAd interstitial
+com.riotapps.wordbase.GameSurface$SwapDialog:
+    int fullWidth
+    int tileSize
+    int textSize
 com.riotapps.wordbase.Splash:
     android.os.Handler handler
     private com.riotapps.wordbase.billing.IabHelper$QueryInventoryFinishedListener onPurchaseCheck
