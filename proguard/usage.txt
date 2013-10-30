@@ -285,7 +285,7 @@ com.riotapps.wordbase.GameSurface$SwapDialog:
 com.riotapps.wordbase.Splash:
     android.os.Handler handler
     private com.riotapps.wordbase.billing.IabHelper$QueryInventoryFinishedListener onPurchaseCheck
-    232:246:private void handleRouting()
+    229:243:private void handleRouting()
 com.riotapps.wordbase.billing.Base64:
     private static final byte EQUALS_SIGN
     private static final byte NEW_LINE

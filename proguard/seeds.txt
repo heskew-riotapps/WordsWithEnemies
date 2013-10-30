@@ -5609,7 +5609,9 @@ com.riotapps.wordbase.R$string: int game_surface_game_over_loss_after_skips
 com.riotapps.wordbase.R$string: int game_surface_game_over_win
 com.riotapps.wordbase.R$string: int game_surface_game_over_win_after_skips
 com.riotapps.wordbase.R$string: int game_surface_resign_game_confirmation_text
+com.riotapps.wordbase.R$string: int game_surface_resign_game_confirmation_text_2
 com.riotapps.wordbase.R$string: int game_surface_resign_game_confirmation_title
+com.riotapps.wordbase.R$string: int game_surface_resign_game_confirmation_title_2
 com.riotapps.wordbase.R$string: int gameboard_back_button_text
 com.riotapps.wordbase.R$string: int gameboard_cancel_button_text
 com.riotapps.wordbase.R$string: int gameboard_hints_button_text
@@ -7004,6 +7006,7 @@ com.riotapps.wordbase.utils.Constants: java.lang.String TRACKER_LABEL_RESIGN_INI
 com.riotapps.wordbase.utils.Constants: java.lang.String TRACKER_LABEL_RESIGN_CANCEL
 com.riotapps.wordbase.utils.Constants: java.lang.String TRACKER_LABEL_RESIGN_DISMISS
 com.riotapps.wordbase.utils.Constants: java.lang.String TRACKER_LABEL_RESIGN_OK
+com.riotapps.wordbase.utils.Constants: java.lang.String TRACKER_LABEL_RESIGN_1_OK
 com.riotapps.wordbase.utils.Constants: java.lang.String TRACKER_LABEL_REMATCH_INITIAL
 com.riotapps.wordbase.utils.Constants: java.lang.String TRACKER_LABEL_REMATCH_CANCEL
 com.riotapps.wordbase.utils.Constants: java.lang.String TRACKER_LABEL_REMATCH_DISMISS
@@ -7197,6 +7200,7 @@ com.riotapps.wordbase.utils.Constants: int RETURN_CODE_CUSTOM_DIALOG_GAME_CONFIR
 com.riotapps.wordbase.utils.Constants: int RETURN_CODE_CUSTOM_DIALOG_GAME_CONFIRMATION_CANCEL_CLICKED
 com.riotapps.wordbase.utils.Constants: int RETURN_CODE_WORD_HINT_DIALOG_CHOICE_MADE
 com.riotapps.wordbase.utils.Constants: int RETURN_CODE_WORD_HINT_CLOSE
+com.riotapps.wordbase.utils.Constants: int RETURN_CODE_CUSTOM_DIALOG_RESIGN_OK_1_CLICKED
 com.riotapps.wordbase.utils.Constants: java.lang.String DIRECTION_ABOVE
 com.riotapps.wordbase.utils.Constants: java.lang.String DIRECTION_BELOW
 com.riotapps.wordbase.utils.Constants: java.lang.String DIRECTION_LEFT
@@ -8171,7 +8175,9 @@ com.riotapps.words.R$string: int game_surface_game_over_loss_after_skips
 com.riotapps.words.R$string: int game_surface_game_over_win
 com.riotapps.words.R$string: int game_surface_game_over_win_after_skips
 com.riotapps.words.R$string: int game_surface_resign_game_confirmation_text
+com.riotapps.words.R$string: int game_surface_resign_game_confirmation_text_2
 com.riotapps.words.R$string: int game_surface_resign_game_confirmation_title
+com.riotapps.words.R$string: int game_surface_resign_game_confirmation_title_2
 com.riotapps.words.R$string: int gameboard_back_button_text
 com.riotapps.words.R$string: int gameboard_cancel_button_text
 com.riotapps.words.R$string: int gameboard_hints_button_text

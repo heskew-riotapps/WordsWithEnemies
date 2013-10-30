@@ -7859,24 +7859,25 @@ com.riotapps.wordbase.GameSurface -> com.riotapps.wordbase.GameSurface:
     1766:1777:void handleCancel() -> r
     1781:1793:void handleGameCancelOnClick() -> s
     1796:1808:void handleResign() -> t
-    1816:1841:void handleGameResignOnClick() -> u
-    1844:1848:void dismissCustomDialog() -> v
-    1850:1886:void postPlayNoErrors(com.riotapps.wordbase.ui.PlacedResult) -> postPlayNoErrors
-    1896:1977:void handleGamePlayOnClick(com.riotapps.wordbase.ui.PlacedResult) -> handleGamePlayOnClick
-    1986:2046:void handleGameSkipOnClick() -> handleGameSkipOnClick
-    2049:2051:void onSwapClick() -> w
-    2060:2126:void handleGameSwapOnClick(java.util.List) -> handleGameSwapOnClick
-    2133:2190:void handlePostAutoplay() -> handlePostAutoplay
-    2193:2198:void handlePostPreAutoplay() -> handlePostPreAutoplay
-    2201:2218:void handlePostWordHintTask() -> handlePostWordHintTask
-    2221:2265:void handlePostAdServer() -> handlePostAdServer
-    2268:2297:void handleInterstitialAd() -> x
-    3015:3016:void trackEvent(java.lang.String,java.lang.String,int) -> a
-    3020:3027:void trackEvent(java.lang.String,java.lang.String,java.lang.String,long) -> trackEvent
-    3031:3127:void dialogClose(int) -> dialogClose
-    3130:3149:void dialogClose(int,java.lang.String) -> dialogClose
-    3152:3173:void setHintChoice(java.lang.String) -> a
-    3178:3197:void setupFonts() -> y
+    1811:1823:void handleSecondResign() -> u
+    1831:1856:void handleGameResignOnClick() -> v
+    1859:1863:void dismissCustomDialog() -> w
+    1865:1901:void postPlayNoErrors(com.riotapps.wordbase.ui.PlacedResult) -> postPlayNoErrors
+    1911:1992:void handleGamePlayOnClick(com.riotapps.wordbase.ui.PlacedResult) -> handleGamePlayOnClick
+    2001:2061:void handleGameSkipOnClick() -> handleGameSkipOnClick
+    2064:2066:void onSwapClick() -> x
+    2075:2141:void handleGameSwapOnClick(java.util.List) -> handleGameSwapOnClick
+    2148:2205:void handlePostAutoplay() -> handlePostAutoplay
+    2208:2213:void handlePostPreAutoplay() -> handlePostPreAutoplay
+    2216:2233:void handlePostWordHintTask() -> handlePostWordHintTask
+    2236:2280:void handlePostAdServer() -> handlePostAdServer
+    2283:2312:void handleInterstitialAd() -> y
+    3030:3031:void trackEvent(java.lang.String,java.lang.String,int) -> a
+    3035:3042:void trackEvent(java.lang.String,java.lang.String,java.lang.String,long) -> trackEvent
+    3046:3149:void dialogClose(int) -> dialogClose
+    3152:3171:void dialogClose(int,java.lang.String) -> dialogClose
+    3174:3195:void setHintChoice(java.lang.String) -> a
+    3200:3219:void setupFonts() -> z
     83:83:java.lang.String access$0() -> b
     89:89:com.chartboost.sdk.Chartboost access$1(com.riotapps.wordbase.GameSurface) -> a
     172:172:com.riotapps.wordbase.hooks.Game access$2(com.riotapps.wordbase.GameSurface) -> b
@@ -7899,24 +7900,24 @@ com.riotapps.wordbase.GameSurface -> com.riotapps.wordbase.GameSurface:
     82:82:int[] $SWITCH_TABLE$com$riotapps$wordbase$ui$GameAction$GameActionType() -> c
 com.riotapps.wordbase.GameSurface$1 -> nv:
     com.riotapps.wordbase.GameSurface this$0 -> a
-    2716:2717:boolean shouldDisplayInterstitial(java.lang.String) -> shouldDisplayInterstitial
-    2738:2739:boolean shouldRequestInterstitial(java.lang.String) -> shouldRequestInterstitial
-    2757:2758:void didCacheInterstitial(java.lang.String) -> didCacheInterstitial
-    2777:2782:void didFailToLoadInterstitial(java.lang.String) -> didFailToLoadInterstitial
-    2799:2808:void didDismissInterstitial(java.lang.String) -> didDismissInterstitial
-    2820:2825:void didCloseInterstitial(java.lang.String) -> didCloseInterstitial
-    2837:2842:void didClickInterstitial(java.lang.String) -> didClickInterstitial
-    2854:2861:void didShowInterstitial(java.lang.String) -> didShowInterstitial
-    2877:2877:boolean shouldDisplayLoadingViewForMoreApps() -> shouldDisplayLoadingViewForMoreApps
-    2892:2892:boolean shouldRequestMoreApps() -> shouldRequestMoreApps
-    2906:2907:boolean shouldDisplayMoreApps() -> shouldDisplayMoreApps
-    2925:2928:void didFailToLoadMoreApps() -> didFailToLoadMoreApps
-    2939:2940:void didCacheMoreApps() -> didCacheMoreApps
-    2953:2956:void didDismissMoreApps() -> didDismissMoreApps
-    2968:2971:void didCloseMoreApps() -> didCloseMoreApps
-    2983:2986:void didClickMoreApps() -> didClickMoreApps
-    2998:2999:void didShowMoreApps() -> didShowMoreApps
-    3009:3009:boolean shouldRequestInterstitialsInFirstSession() -> shouldRequestInterstitialsInFirstSession
+    2731:2732:boolean shouldDisplayInterstitial(java.lang.String) -> shouldDisplayInterstitial
+    2753:2754:boolean shouldRequestInterstitial(java.lang.String) -> shouldRequestInterstitial
+    2772:2773:void didCacheInterstitial(java.lang.String) -> didCacheInterstitial
+    2792:2797:void didFailToLoadInterstitial(java.lang.String) -> didFailToLoadInterstitial
+    2814:2823:void didDismissInterstitial(java.lang.String) -> didDismissInterstitial
+    2835:2840:void didCloseInterstitial(java.lang.String) -> didCloseInterstitial
+    2852:2857:void didClickInterstitial(java.lang.String) -> didClickInterstitial
+    2869:2876:void didShowInterstitial(java.lang.String) -> didShowInterstitial
+    2892:2892:boolean shouldDisplayLoadingViewForMoreApps() -> shouldDisplayLoadingViewForMoreApps
+    2907:2907:boolean shouldRequestMoreApps() -> shouldRequestMoreApps
+    2921:2922:boolean shouldDisplayMoreApps() -> shouldDisplayMoreApps
+    2940:2943:void didFailToLoadMoreApps() -> didFailToLoadMoreApps
+    2954:2955:void didCacheMoreApps() -> didCacheMoreApps
+    2968:2971:void didDismissMoreApps() -> didDismissMoreApps
+    2983:2986:void didCloseMoreApps() -> didCloseMoreApps
+    2998:3001:void didClickMoreApps() -> didClickMoreApps
+    3013:3014:void didShowMoreApps() -> didShowMoreApps
+    3024:3024:boolean shouldRequestInterstitialsInFirstSession() -> shouldRequestInterstitialsInFirstSession
 com.riotapps.wordbase.GameSurface$2 -> nw:
     com.riotapps.wordbase.GameSurface this$0 -> a
     1579:1580:void run() -> run
@@ -7931,14 +7932,14 @@ com.riotapps.wordbase.GameSurface$4 -> ny:
     1754:1760:void run() -> run
 com.riotapps.wordbase.GameSurface$AutoplayTask -> nz:
     com.riotapps.wordbase.GameSurface this$0 -> a
-    3203:3214:java.lang.Void doInBackground(java.lang.Void[]) -> a
-    3223:3224:void onPostExecute(java.lang.Void) -> a
+    3225:3236:java.lang.Void doInBackground(java.lang.Void[]) -> a
+    3245:3246:void onPostExecute(java.lang.Void) -> a
     1:1:void onPostExecute(java.lang.Object) -> onPostExecute
     1:1:java.lang.Object doInBackground(java.lang.Object[]) -> doInBackground
 com.riotapps.wordbase.GameSurface$PreAutoplayTask -> oa:
     com.riotapps.wordbase.GameSurface this$0 -> a
-    3234:3247:java.lang.Void doInBackground(java.lang.Void[]) -> a
-    3257:3260:void onPostExecute(java.lang.Void) -> a
+    3256:3269:java.lang.Void doInBackground(java.lang.Void[]) -> a
+    3279:3282:void onPostExecute(java.lang.Void) -> a
     1:1:void onPostExecute(java.lang.Object) -> onPostExecute
     1:1:java.lang.Object doInBackground(java.lang.Object[]) -> doInBackground
 com.riotapps.wordbase.GameSurface$SwapDialog -> ob:
@@ -7963,25 +7964,25 @@ com.riotapps.wordbase.GameSurface$SwapDialog -> ob:
     android.view.View layout -> u
     android.content.Context context -> a
     com.riotapps.wordbase.GameSurface this$0 -> b
-    2364:2368:void onCreate(android.os.Bundle) -> onCreate
-    2373:2483:void onStart() -> onStart
-    2488:2490:void dismiss() -> dismiss
-    2494:2516:void handleOKClick() -> a
-    2520:2579:void onClick(android.view.View) -> onClick
-    2300:2300:com.riotapps.wordbase.GameSurface access$0(com.riotapps.wordbase.GameSurface$SwapDialog) -> a
+    2379:2383:void onCreate(android.os.Bundle) -> onCreate
+    2388:2498:void onStart() -> onStart
+    2503:2505:void dismiss() -> dismiss
+    2509:2531:void handleOKClick() -> a
+    2535:2594:void onClick(android.view.View) -> onClick
+    2315:2315:com.riotapps.wordbase.GameSurface access$0(com.riotapps.wordbase.GameSurface$SwapDialog) -> a
 com.riotapps.wordbase.GameSurface$SwapDialog$1 -> oc:
     com.riotapps.wordbase.GameSurface$SwapDialog this$1 -> a
-    2449:2454:void onClick(android.view.View) -> onClick
+    2464:2469:void onClick(android.view.View) -> onClick
 com.riotapps.wordbase.GameSurface$SwapDialog$2 -> od:
     com.riotapps.wordbase.GameSurface$SwapDialog this$1 -> a
-    2463:2468:void onClick(android.view.View) -> onClick
+    2478:2483:void onClick(android.view.View) -> onClick
 com.riotapps.wordbase.GameSurface$SwapDialog$3 -> oe:
     com.riotapps.wordbase.GameSurface$SwapDialog this$1 -> a
-    2474:2479:void onCancel(android.content.DialogInterface) -> onCancel
+    2489:2494:void onCancel(android.content.DialogInterface) -> onCancel
 com.riotapps.wordbase.GameSurface$WordHintTask -> of:
     com.riotapps.wordbase.GameSurface this$0 -> a
-    3270:3314:java.lang.Boolean doInBackground(java.lang.Void[]) -> a
-    3324:3327:void onPostExecute(java.lang.Boolean) -> a
+    3292:3336:java.lang.Boolean doInBackground(java.lang.Void[]) -> a
+    3346:3349:void onPostExecute(java.lang.Boolean) -> a
     1:1:void onPostExecute(java.lang.Object) -> onPostExecute
     1:1:java.lang.Object doInBackground(java.lang.Object[]) -> doInBackground
 com.riotapps.wordbase.GameSurface$handleButtonSwitchRunnable -> og:
@@ -8684,7 +8685,9 @@ com.riotapps.wordbase.R$string -> com.riotapps.wordbase.R$string:
     int game_surface_game_over_win -> game_surface_game_over_win
     int game_surface_game_over_win_after_skips -> game_surface_game_over_win_after_skips
     int game_surface_resign_game_confirmation_text -> game_surface_resign_game_confirmation_text
+    int game_surface_resign_game_confirmation_text_2 -> game_surface_resign_game_confirmation_text_2
     int game_surface_resign_game_confirmation_title -> game_surface_resign_game_confirmation_title
+    int game_surface_resign_game_confirmation_title_2 -> game_surface_resign_game_confirmation_title_2
     int gameboard_back_button_text -> gameboard_back_button_text
     int gameboard_cancel_button_text -> gameboard_cancel_button_text
     int gameboard_hints_button_text -> gameboard_hints_button_text
@@ -8913,12 +8916,12 @@ com.riotapps.wordbase.Splash -> com.riotapps.wordbase.Splash:
     39:105:void onCreate(android.os.Bundle) -> onCreate
     108:127:void onSetupFinished(com.riotapps.wordbase.billing.IabResult) -> onSetupFinished
     131:134:void onDestroy() -> onDestroy
-    137:159:void onPurchaseCheck(com.riotapps.wordbase.billing.IabResult,com.riotapps.wordbase.billing.Inventory) -> onPurchaseCheck
-    207:208:void startBackgroundService() -> b
-    214:216:void onStart() -> onStart
-    222:224:void onStop() -> onStop
-    228:230:void captureTime(java.lang.String) -> captureTime
-    251:253:void onPause() -> onPause
+    137:156:void onPurchaseCheck(com.riotapps.wordbase.billing.IabResult,com.riotapps.wordbase.billing.Inventory) -> onPurchaseCheck
+    204:205:void startBackgroundService() -> b
+    211:213:void onStart() -> onStart
+    219:221:void onStop() -> onStop
+    225:227:void captureTime(java.lang.String) -> captureTime
+    248:250:void onPause() -> onPause
 com.riotapps.wordbase.Splash$1 -> oi:
     com.riotapps.wordbase.Splash this$0 -> a
     62:63:void onIabSetupFinished(com.riotapps.wordbase.billing.IabResult) -> onIabSetupFinished
@@ -10727,6 +10730,7 @@ com.riotapps.wordbase.utils.Constants -> com.riotapps.wordbase.utils.Constants:
     java.lang.String TRACKER_LABEL_RESIGN_CANCEL -> TRACKER_LABEL_RESIGN_CANCEL
     java.lang.String TRACKER_LABEL_RESIGN_DISMISS -> TRACKER_LABEL_RESIGN_DISMISS
     java.lang.String TRACKER_LABEL_RESIGN_OK -> TRACKER_LABEL_RESIGN_OK
+    java.lang.String TRACKER_LABEL_RESIGN_1_OK -> TRACKER_LABEL_RESIGN_1_OK
     java.lang.String TRACKER_LABEL_REMATCH_INITIAL -> TRACKER_LABEL_REMATCH_INITIAL
     java.lang.String TRACKER_LABEL_REMATCH_CANCEL -> TRACKER_LABEL_REMATCH_CANCEL
     java.lang.String TRACKER_LABEL_REMATCH_DISMISS -> TRACKER_LABEL_REMATCH_DISMISS
@@ -10920,6 +10924,7 @@ com.riotapps.wordbase.utils.Constants -> com.riotapps.wordbase.utils.Constants:
     int RETURN_CODE_CUSTOM_DIALOG_GAME_CONFIRMATION_CANCEL_CLICKED -> RETURN_CODE_CUSTOM_DIALOG_GAME_CONFIRMATION_CANCEL_CLICKED
     int RETURN_CODE_WORD_HINT_DIALOG_CHOICE_MADE -> RETURN_CODE_WORD_HINT_DIALOG_CHOICE_MADE
     int RETURN_CODE_WORD_HINT_CLOSE -> RETURN_CODE_WORD_HINT_CLOSE
+    int RETURN_CODE_CUSTOM_DIALOG_RESIGN_OK_1_CLICKED -> RETURN_CODE_CUSTOM_DIALOG_RESIGN_OK_1_CLICKED
     java.lang.String DIRECTION_ABOVE -> DIRECTION_ABOVE
     java.lang.String DIRECTION_BELOW -> DIRECTION_BELOW
     java.lang.String DIRECTION_LEFT -> DIRECTION_LEFT
@@ -11941,7 +11946,9 @@ com.riotapps.words.R$string -> com.riotapps.words.R$string:
     int game_surface_game_over_win -> game_surface_game_over_win
     int game_surface_game_over_win_after_skips -> game_surface_game_over_win_after_skips
     int game_surface_resign_game_confirmation_text -> game_surface_resign_game_confirmation_text
+    int game_surface_resign_game_confirmation_text_2 -> game_surface_resign_game_confirmation_text_2
     int game_surface_resign_game_confirmation_title -> game_surface_resign_game_confirmation_title
+    int game_surface_resign_game_confirmation_title_2 -> game_surface_resign_game_confirmation_title_2
     int gameboard_back_button_text -> gameboard_back_button_text
     int gameboard_cancel_button_text -> gameboard_cancel_button_text
     int gameboard_hints_button_text -> gameboard_hints_button_text
