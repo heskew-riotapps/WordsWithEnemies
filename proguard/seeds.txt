@@ -5690,6 +5690,12 @@ com.riotapps.wordbase.R$string: int skill_level_3
 com.riotapps.wordbase.R$string: int skill_level_4
 com.riotapps.wordbase.R$string: int skill_level_5
 com.riotapps.wordbase.R$string: int skill_level_6
+com.riotapps.wordbase.R$string: int skill_level_lcase_1
+com.riotapps.wordbase.R$string: int skill_level_lcase_2
+com.riotapps.wordbase.R$string: int skill_level_lcase_3
+com.riotapps.wordbase.R$string: int skill_level_lcase_4
+com.riotapps.wordbase.R$string: int skill_level_lcase_5
+com.riotapps.wordbase.R$string: int skill_level_lcase_6
 com.riotapps.wordbase.R$string: int smiley_attribution
 com.riotapps.wordbase.R$string: int smiley_attribution_link
 com.riotapps.wordbase.R$string: int sorry
@@ -6197,6 +6203,7 @@ com.riotapps.wordbase.hooks.Opponent: com.riotapps.wordbase.hooks.OpponentRecord
 com.riotapps.wordbase.hooks.Opponent: com.riotapps.wordbase.hooks.OpponentGroup getOpponentGroup()
 com.riotapps.wordbase.hooks.Opponent: java.lang.String getDrawableByMode(java.lang.String)
 com.riotapps.wordbase.hooks.Opponent: java.lang.String getSkillLevelText(android.content.Context)
+com.riotapps.wordbase.hooks.Opponent: java.lang.String getSkillLevelTextLCase(android.content.Context)
 com.riotapps.wordbase.hooks.Opponent: android.graphics.Bitmap getSmallBitmap()
 com.riotapps.wordbase.hooks.Opponent: void preloadBitmaps()
 com.riotapps.wordbase.hooks.Opponent: void addLossToRecord()
@@ -8256,6 +8263,12 @@ com.riotapps.words.R$string: int skill_level_3
 com.riotapps.words.R$string: int skill_level_4
 com.riotapps.words.R$string: int skill_level_5
 com.riotapps.words.R$string: int skill_level_6
+com.riotapps.words.R$string: int skill_level_lcase_1
+com.riotapps.words.R$string: int skill_level_lcase_2
+com.riotapps.words.R$string: int skill_level_lcase_3
+com.riotapps.words.R$string: int skill_level_lcase_4
+com.riotapps.words.R$string: int skill_level_lcase_5
+com.riotapps.words.R$string: int skill_level_lcase_6
 com.riotapps.words.R$string: int smiley_attribution
 com.riotapps.words.R$string: int smiley_attribution_link
 com.riotapps.words.R$string: int sorry

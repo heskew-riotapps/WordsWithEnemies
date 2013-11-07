@@ -8766,6 +8766,12 @@ com.riotapps.wordbase.R$string -> com.riotapps.wordbase.R$string:
     int skill_level_4 -> skill_level_4
     int skill_level_5 -> skill_level_5
     int skill_level_6 -> skill_level_6
+    int skill_level_lcase_1 -> skill_level_lcase_1
+    int skill_level_lcase_2 -> skill_level_lcase_2
+    int skill_level_lcase_3 -> skill_level_lcase_3
+    int skill_level_lcase_4 -> skill_level_lcase_4
+    int skill_level_lcase_5 -> skill_level_lcase_5
+    int skill_level_lcase_6 -> skill_level_lcase_6
     int smiley_attribution -> smiley_attribution
     int smiley_attribution_link -> smiley_attribution_link
     int sorry -> sorry
@@ -9474,11 +9480,12 @@ com.riotapps.wordbase.hooks.Opponent -> com.riotapps.wordbase.hooks.Opponent:
     91:94:com.riotapps.wordbase.hooks.OpponentGroup getOpponentGroup() -> getOpponentGroup
     103:103:java.lang.String getDrawableByMode(java.lang.String) -> getDrawableByMode
     107:121:java.lang.String getSkillLevelText(android.content.Context) -> getSkillLevelText
-    125:129:android.graphics.Bitmap getSmallBitmap() -> getSmallBitmap
-    134:140:void preloadBitmaps() -> preloadBitmaps
-    143:144:void addLossToRecord() -> addLossToRecord
-    147:148:void addWinToRecord() -> addWinToRecord
-    151:152:void addDrawToRecord() -> addDrawToRecord
+    125:139:java.lang.String getSkillLevelTextLCase(android.content.Context) -> getSkillLevelTextLCase
+    143:147:android.graphics.Bitmap getSmallBitmap() -> getSmallBitmap
+    152:158:void preloadBitmaps() -> preloadBitmaps
+    161:162:void addLossToRecord() -> addLossToRecord
+    165:166:void addWinToRecord() -> addWinToRecord
+    169:170:void addDrawToRecord() -> addDrawToRecord
 com.riotapps.wordbase.hooks.OpponentGroup -> com.riotapps.wordbase.hooks.OpponentGroup:
     int id -> a
     java.lang.String name -> b
@@ -12027,6 +12034,12 @@ com.riotapps.words.R$string -> com.riotapps.words.R$string:
     int skill_level_4 -> skill_level_4
     int skill_level_5 -> skill_level_5
     int skill_level_6 -> skill_level_6
+    int skill_level_lcase_1 -> skill_level_lcase_1
+    int skill_level_lcase_2 -> skill_level_lcase_2
+    int skill_level_lcase_3 -> skill_level_lcase_3
+    int skill_level_lcase_4 -> skill_level_lcase_4
+    int skill_level_lcase_5 -> skill_level_lcase_5
+    int skill_level_lcase_6 -> skill_level_lcase_6
     int smiley_attribution -> smiley_attribution
     int smiley_attribution_link -> smiley_attribution_link
     int sorry -> sorry

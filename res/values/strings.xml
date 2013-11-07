@@ -34,20 +34,20 @@
 	
 	<string name="main_first_time_alert_title">Welcome!</string>
 	<string name="main_first_time_alert_message">To get started, just choose a monster to play.  Check out all of the rules or visit the store by tapping the 3 squares in the top right corner.\n\nEnjoy Words With Enemies!\n\nThe monsters are waiting.</string>
-	<string name="word_hint_dialog_title">Tinny\'s Hints</string>	
+	<string name="word_hint_dialog_title">Hoot\'s Hints</string>	
 	
-		<string name="word_hint_dialog_title">Tinny\'s Hints</string>		
-		<string name="word_hint_previews_over">Now that the free previews are over, getting hints from Tinny requires a Tinny\'s Hints Upgrage or a Premium Upgrade.\n\n Just tap the button to go to the store to get 2 hints per game for unlimited games.  It\'s cheap and a great way to get an extra boost of brain power when you need it!\n</string>		
-		<string name="word_hint_used_this_game">You\'ve used your %s Tinny\'s hints for this game!</string>	
-		<string name="word_hint_no_previews_left">To keep using Tinny\'s Hints after this game, you\'ll need an Tinny\'s Hints Upgrade or a Premium Upgrade!</string>	
+		<string name="word_hint_dialog_title">Hoot\'s Hints</string>		
+		<string name="word_hint_previews_over">Now that the free previews are over, getting hints from Hoot requires a Hoot\'s Hints Upgrage or a Premium Upgrade.\n\n Just tap the button to go to the store to get 2 hints per game for unlimited games.  It\'s cheap and a great way to get an extra boost of brain power when you need it!\n</string>		
+		<string name="word_hint_used_this_game">You\'ve used your %s Hoot\'s hints for this game!</string>	
+		<string name="word_hint_no_previews_left">To keep using Hoot\'s Hints after this game, you\'ll need an Hoot\'s Hints Upgrade or a Premium Upgrade!</string>	
 		
-  		<string name="word_hint_preview">You have %s more games in which to preview Tinny\'s Hints.\n</string>
-		<string name="word_hint_1_preview_left">You have 1 more game in which to preview Tinny\'s hints before needing a Tinny\'s Hints Upgrade or a Premium Upgrade.\n</string>
+  		<string name="word_hint_preview">You have %s more games in which to preview Hoot\'s Hints.\n</string>
+		<string name="word_hint_1_preview_left">You have 1 more game in which to preview Hoot\'s hints before needing a Hoot\'s Hints Upgrade or a Premium Upgrade.\n</string>
 		<string name="word_hint_description">Just tap a word to place that word on the board.</string>
 		<string name="word_hint_sub_description">(Don\'t forget to tap the Play button if you decide to play the word.)</string>
-		<string name="word_hint_description_none_found">Sorry, Tinny didn\'t find any word hints.  That doesn\'t mean all hope is lost though!  You may be able to play a word that Tinny didn\'t find.</string>
-		 <string name="progress_word_hint_is_thinking">Tinny is thinking&#8230;</string>
-	<string name="gameboard_hints_button_text">TINNY\'S\nHINTS</string>
+		<string name="word_hint_description_none_found">Sorry, Hoot didn\'t find any word hints.  That doesn\'t mean all hope is lost though!  You may be able to play a word that Hoot didn\'t find.</string>
+		 <string name="progress_word_hint_is_thinking">Hoot is thinking&#8230;</string>
+	<string name="gameboard_hints_button_text">HOOT\'S\nHINTS</string>
 	
 	 <string name="game_surface_first_time_alert_title">Good luck!</string>
 	 <string name="game_surface_first_time_alert_message">Drag letters from the tray onto the board to form words in a single axis.\n\nThe first word must be played on at least one star.\n\nLetters can be played on top of previously played letters.</string>
@@ -57,12 +57,12 @@
 	<string name="purchase_thanks_word_definitions">We hope you enjoy your unlimited usage of Word Definitions!</string>			
 	<string name="purchase_thanks_premium_upgrade">We hope you enjoy your Premium Upgrade!</string>
 	<string name="purchase_thanks_hide_interstitial">No more ads between plays!</string>
-	<string name="purchase_thanks_word_hints">We hope you enjoy your unlimited usage of Tinny\'s Hints!</string>
+	<string name="purchase_thanks_word_hints">We hope you enjoy your unlimited usage of Hoot\'s Hints!</string>
 	
 	<string name="store_item_premium_upgrade_title">Premium Upgrade</string>
 	<string name="store_item_premium_upgrade_description">Enjoy the purest Words With Enemies experience.  No third-party ads at all.  
 	    Unlimited word definition lookup for any played word. 
-	    Unlimited peeks at the hopper.  Unlimited games with Tinny\'s Hints.</string>
+	    Unlimited peeks at the hopper.  Unlimited games with Hoot\'s Hints.</string>
     <string name="store_item_word_definitions_title">Word Definition Lookups</string>
 	<string name="store_item_word_definitions_description">Lookup the definition of any played word. Learn as you play! Unlimited usage.</string>
     <string name="store_item_no_ads_title">No Ads Between Moves</string>
@@ -70,8 +70,8 @@
     <string name="store_item_hopper_peek_title">Peek at the Hopper</string>
 	<string name="store_item_hopper_peek_description">At any time, you will be able to see which letters are left in play in the hopper
 	     as well as in your opponent\'s tray.  Unlimited usage.</string>	
-	<string name="store_item_word_hints_title">Tinny\'s Hints</string>
-	<string name="store_item_word_hints_description">Twice per game, tap into Tinny the Robot\'s giant vocabulary to help find a word when you are stuck! Unlimited games.</string>
+	<string name="store_item_word_hints_title">Hoot\'s Hints</string>
+	<string name="store_item_word_hints_description">Twice per game, tap into Hoot the Owl\'s giant vocabulary to help find a word when you are stuck! Unlimited games.</string>
 		<string name="share_subject">Words With Enemies</string>
 		<string name="share_message">Check out Words With Enemies for Android in the Google Play store.  Test your crossword skills against some super smart monsters.  Always play at your own pace, as fast as you desire.</string>
 	<string name="about_main">Words With Enemies by RiotApps</string>
@@ -79,7 +79,7 @@
 	<string name="about_build_number">build: %s</string>		
 	
 	<string name="about_support">Need support? Have comments? Want to report a bug?</string>	 
-	<string name="about_support_link">http://www.getsatisfaction.com/wordswithenemies</string>	 
+	<string name="about_support_link">http://wordswithenemies.uservoice.com/</string>	 
 	<string name="about_fb_like">Please like us on Facebook</string>	
 	<string name="about_fb_link">http://www.facebook.com/pages/words-with-enemies</string>	
 	
