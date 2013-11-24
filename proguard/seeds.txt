@@ -4931,6 +4931,7 @@ com.riotapps.wordbase.Main: Main()
 com.riotapps.wordbase.Main: com.google.analytics.tracking.android.Tracker getTracker()
 com.riotapps.wordbase.Main: void setTracker(com.google.analytics.tracking.android.Tracker)
 com.riotapps.wordbase.Main: void onCreate(android.os.Bundle)
+com.riotapps.wordbase.Main: void trackEvent(java.lang.String,java.lang.String,long)
 com.riotapps.wordbase.Main: void onRestart()
 com.riotapps.wordbase.Main: void onResume()
 com.riotapps.wordbase.Main: void onStart()
@@ -4940,6 +4941,7 @@ com.riotapps.wordbase.Main: android.view.View getOpponentView(com.riotapps.wordb
 com.riotapps.wordbase.Main: void onClick(android.view.View)
 com.riotapps.wordbase.Main: boolean onMenuItemClick(android.view.MenuItem)
 com.riotapps.wordbase.Main: void onActivityResult(int,int,android.content.Intent)
+com.riotapps.wordbase.Main: void handleGameStartOnClick(android.content.Context,com.riotapps.wordbase.hooks.Player,int)
 com.riotapps.wordbase.Main: void dialogClose(int)
 com.riotapps.wordbase.Main: void dialogClose(int,java.lang.String)
 com.riotapps.wordbase.R
@@ -5015,6 +5017,9 @@ com.riotapps.wordbase.R$color: int store_item_title_color
 com.riotapps.wordbase.R$color: int sub_text_color
 com.riotapps.wordbase.R$color: int tab_background_color
 com.riotapps.wordbase.R$color: int title_bar_background_color
+com.riotapps.wordbase.R$color: int toast_background_color
+com.riotapps.wordbase.R$color: int toast_inner_background_color
+com.riotapps.wordbase.R$color: int toast_text_color
 com.riotapps.wordbase.R$color: int tray_background
 com.riotapps.wordbase.R$color: R$color()
 com.riotapps.wordbase.R$drawable
@@ -5095,6 +5100,8 @@ com.riotapps.wordbase.R$drawable: int tile_last_played_bg
 com.riotapps.wordbase.R$drawable: int tile_placed_bg
 com.riotapps.wordbase.R$drawable: int tile_played_bg
 com.riotapps.wordbase.R$drawable: int tile_starter_bg
+com.riotapps.wordbase.R$drawable: int toast_background
+com.riotapps.wordbase.R$drawable: int toast_inner_background
 com.riotapps.wordbase.R$drawable: int top_bg
 com.riotapps.wordbase.R$drawable: int top_logo
 com.riotapps.wordbase.R$drawable: int tray_tile_bg
@@ -5205,6 +5212,7 @@ com.riotapps.wordbase.R$id: int scoreboard
 com.riotapps.wordbase.R$id: int scoreboardNumbers
 com.riotapps.wordbase.R$id: int scroller
 com.riotapps.wordbase.R$id: int tblLetters
+com.riotapps.wordbase.R$id: int toast_root
 com.riotapps.wordbase.R$id: int topAreaLayout
 com.riotapps.wordbase.R$id: int tvActivityTitle
 com.riotapps.wordbase.R$id: int tvAlertTitle
@@ -5397,6 +5405,7 @@ com.riotapps.wordbase.R$layout: int scoreboardlayout
 com.riotapps.wordbase.R$layout: int splash
 com.riotapps.wordbase.R$layout: int store
 com.riotapps.wordbase.R$layout: int swapdialog
+com.riotapps.wordbase.R$layout: int toast
 com.riotapps.wordbase.R$layout: int toparealayout
 com.riotapps.wordbase.R$layout: int twobuttondialog
 com.riotapps.wordbase.R$layout: int wordhintdialog
@@ -5625,6 +5634,7 @@ com.riotapps.wordbase.R$string: int gameboard_recall_button_text
 com.riotapps.wordbase.R$string: int gameboard_resign_button_text
 com.riotapps.wordbase.R$string: int gameboard_shuffle_button_text
 com.riotapps.wordbase.R$string: int gameboard_skip_button_text
+com.riotapps.wordbase.R$string: int gameboard_start_button_text
 com.riotapps.wordbase.R$string: int gameboard_swap_button_text
 com.riotapps.wordbase.R$string: int gameboard_swap_dialog_button_text
 com.riotapps.wordbase.R$string: int gameboard_swap_dialog_please_choose_text
@@ -5666,6 +5676,7 @@ com.riotapps.wordbase.R$string: int oops
 com.riotapps.wordbase.R$string: int post_turn_message_with_auto_play
 com.riotapps.wordbase.R$string: int post_turn_title_with_auto_play
 com.riotapps.wordbase.R$string: int progress_almost_ready
+com.riotapps.wordbase.R$string: int progress_loading
 com.riotapps.wordbase.R$string: int progress_looking_up
 com.riotapps.wordbase.R$string: int progress_opponent_thinking
 com.riotapps.wordbase.R$string: int progress_saving
@@ -5829,6 +5840,7 @@ com.riotapps.wordbase.R$style: int TextLineItemCenteredStyle
 com.riotapps.wordbase.R$style: int TextLineItemStyle
 com.riotapps.wordbase.R$style: int TextMiniStyle
 com.riotapps.wordbase.R$style: int TextStyle
+com.riotapps.wordbase.R$style: int ToastTextStyle
 com.riotapps.wordbase.R$style: int TopLogoAreaBottomStyle
 com.riotapps.wordbase.R$style: int TopLogoAreaStyle
 com.riotapps.wordbase.R$style: int TopLogoBoardStyle
@@ -6057,6 +6069,7 @@ com.riotapps.wordbase.hooks.AlphabetService: java.lang.String[] getVowels()
 com.riotapps.wordbase.hooks.AlphabetService: java.lang.String[] getConsonants()
 com.riotapps.wordbase.hooks.AlphabetService: java.lang.String getRandomVowel()
 com.riotapps.wordbase.hooks.AlphabetService: java.util.List getRandomConsonants()
+com.riotapps.wordbase.hooks.AlphabetService: java.util.List getRaceLetters()
 com.riotapps.wordbase.hooks.AlphabetService: java.util.List getHopper(java.lang.String,java.util.List)
 com.riotapps.wordbase.hooks.Game
 com.riotapps.wordbase.hooks.Game: android.os.Parcelable$Creator CREATOR
@@ -6515,6 +6528,15 @@ com.riotapps.wordbase.ui.CustomProgressDialog: void onStart()
 com.riotapps.wordbase.ui.CustomProgressDialog: void setMessage(java.lang.CharSequence)
 com.riotapps.wordbase.ui.CustomProgressDialog: void show()
 com.riotapps.wordbase.ui.CustomProgressDialog: void updateMessage(java.lang.String)
+com.riotapps.wordbase.ui.CustomToast
+com.riotapps.wordbase.ui.CustomToast: CustomToast(android.content.Context)
+com.riotapps.wordbase.ui.CustomToast: CustomToast(android.content.Context,int)
+com.riotapps.wordbase.ui.CustomToast: CustomToast(android.content.Context,java.lang.String)
+com.riotapps.wordbase.ui.CustomToast: CustomToast(android.content.Context,java.lang.String,int)
+com.riotapps.wordbase.ui.CustomToast: void onCreate(android.os.Bundle)
+com.riotapps.wordbase.ui.CustomToast: void onStart()
+com.riotapps.wordbase.ui.CustomToast: void setMessage(java.lang.CharSequence)
+com.riotapps.wordbase.ui.CustomToast: void show()
 com.riotapps.wordbase.ui.DialogManager
 com.riotapps.wordbase.ui.DialogManager: DialogManager()
 com.riotapps.wordbase.ui.DialogManager: void SetupAlert(android.content.Context,java.lang.String,java.lang.String)
@@ -6597,8 +6619,6 @@ com.riotapps.wordbase.ui.GameSurfaceView: void setTiles(java.util.List)
 com.riotapps.wordbase.ui.GameSurfaceView: GameSurfaceView(android.content.Context,android.util.AttributeSet)
 com.riotapps.wordbase.ui.GameSurfaceView: void construct(com.riotapps.wordbase.GameSurface)
 com.riotapps.wordbase.ui.GameSurfaceView: void loadGame()
-com.riotapps.wordbase.ui.GameSurfaceView: android.graphics.Bitmap decodeSampledBitmapFromResource(android.content.res.Resources,int,int,int)
-com.riotapps.wordbase.ui.GameSurfaceView: int calculateInSampleSize(android.graphics.BitmapFactory$Options,int,int)
 com.riotapps.wordbase.ui.GameSurfaceView: void surfaceChanged(android.view.SurfaceHolder,int,int,int)
 com.riotapps.wordbase.ui.GameSurfaceView: void surfaceCreated(android.view.SurfaceHolder)
 com.riotapps.wordbase.ui.GameSurfaceView: void surfaceDestroyed(android.view.SurfaceHolder)
@@ -6999,6 +7019,9 @@ com.riotapps.wordbase.utils.Constants: java.lang.String TRACKER_LABEL_SKIP_INITI
 com.riotapps.wordbase.utils.Constants: java.lang.String TRACKER_LABEL_SKIP_CANCEL
 com.riotapps.wordbase.utils.Constants: java.lang.String TRACKER_LABEL_SKIP_DISMISS
 com.riotapps.wordbase.utils.Constants: java.lang.String TRACKER_LABEL_SKIP_OK
+com.riotapps.wordbase.utils.Constants: java.lang.String TRACKER_LABEL_START_CANCEL
+com.riotapps.wordbase.utils.Constants: java.lang.String TRACKER_LABEL_START_DISMISS
+com.riotapps.wordbase.utils.Constants: java.lang.String TRACKER_LABEL_START_OK
 com.riotapps.wordbase.utils.Constants: java.lang.String TRACKER_LABEL_SWAP_INITIAL
 com.riotapps.wordbase.utils.Constants: java.lang.String TRACKER_LABEL_SWAP_CANCEL
 com.riotapps.wordbase.utils.Constants: java.lang.String TRACKER_LABEL_SWAP_DISMISS
@@ -7208,6 +7231,9 @@ com.riotapps.wordbase.utils.Constants: int RETURN_CODE_CUSTOM_DIALOG_GAME_CONFIR
 com.riotapps.wordbase.utils.Constants: int RETURN_CODE_WORD_HINT_DIALOG_CHOICE_MADE
 com.riotapps.wordbase.utils.Constants: int RETURN_CODE_WORD_HINT_CLOSE
 com.riotapps.wordbase.utils.Constants: int RETURN_CODE_CUSTOM_DIALOG_RESIGN_OK_1_CLICKED
+com.riotapps.wordbase.utils.Constants: int RETURN_CODE_CUSTOM_DIALOG_START_OK_CLICKED
+com.riotapps.wordbase.utils.Constants: int RETURN_CODE_CUSTOM_DIALOG_START_CANCEL_CLICKED
+com.riotapps.wordbase.utils.Constants: int RETURN_CODE_CUSTOM_DIALOG_START_CLOSE_CLICKED
 com.riotapps.wordbase.utils.Constants: java.lang.String DIRECTION_ABOVE
 com.riotapps.wordbase.utils.Constants: java.lang.String DIRECTION_BELOW
 com.riotapps.wordbase.utils.Constants: java.lang.String DIRECTION_LEFT
@@ -7250,6 +7276,8 @@ com.riotapps.wordbase.utils.Constants: int NUM_HINTS_TO_DISPLAY
 com.riotapps.wordbase.utils.Constants: int WORD_HINTS_ALLOWED
 com.riotapps.wordbase.utils.Constants: int WORD_HINTS_NO_MORE_PREVIEWS
 com.riotapps.wordbase.utils.Constants: int WORD_HINTS_MAX_USED_FOR_GAME
+com.riotapps.wordbase.utils.Constants: boolean GAME_SURFACE_SKIP_PRE_PLAY_PROMPT
+com.riotapps.wordbase.utils.Constants: boolean GAME_SURFACE_SKIP_POST_PLAY_PROMPT
 com.riotapps.wordbase.utils.Constants: Constants()
 com.riotapps.wordbase.utils.DesignByContractException
 com.riotapps.wordbase.utils.DesignByContractException: long serialVersionUID
@@ -7324,6 +7352,8 @@ com.riotapps.wordbase.utils.ImageHelper
 com.riotapps.wordbase.utils.ImageHelper: ImageHelper()
 com.riotapps.wordbase.utils.ImageHelper: android.graphics.Bitmap getRoundedCornerBitmap(android.graphics.Bitmap,int,int)
 com.riotapps.wordbase.utils.ImageHelper: android.graphics.Bitmap getResizedBitmap(android.graphics.Bitmap,int,int)
+com.riotapps.wordbase.utils.ImageHelper: android.graphics.Bitmap decodeSampledBitmapFromResource(android.content.res.Resources,int,int,int)
+com.riotapps.wordbase.utils.ImageHelper: int calculateInSampleSize(android.graphics.BitmapFactory$Options,int,int)
 com.riotapps.wordbase.utils.ImageResizer
 com.riotapps.wordbase.utils.ImageResizer: int mImageWidth
 com.riotapps.wordbase.utils.ImageResizer: int mImageHeight
@@ -7468,6 +7498,8 @@ com.riotapps.wordbase.utils.Utils: void shuffleArray(java.lang.String[])
 com.riotapps.wordbase.utils.Utils: int coinFlip()
 com.riotapps.wordbase.utils.Utils: int getRandomNumberFromRange(int,int)
 com.riotapps.wordbase.utils.Utils: java.lang.String getOppositeDirection(java.lang.String)
+com.riotapps.wordbase.utils.Utils: java.lang.Object[] concatArrays(java.lang.Object[],java.lang.Object[])
+com.riotapps.wordbase.utils.Utils: int getResourceId(android.content.Context,java.lang.String)
 com.riotapps.wordbase.utils.Validations
 com.riotapps.wordbase.utils.Validations: Validations()
 com.riotapps.wordbase.utils.Validations: boolean validateEmail(java.lang.String)
@@ -7582,6 +7614,9 @@ com.riotapps.words.R$color: int store_item_title_color
 com.riotapps.words.R$color: int sub_text_color
 com.riotapps.words.R$color: int tab_background_color
 com.riotapps.words.R$color: int title_bar_background_color
+com.riotapps.words.R$color: int toast_background_color
+com.riotapps.words.R$color: int toast_inner_background_color
+com.riotapps.words.R$color: int toast_text_color
 com.riotapps.words.R$color: int tray_background
 com.riotapps.words.R$color: R$color()
 com.riotapps.words.R$drawable
@@ -7648,7 +7683,6 @@ com.riotapps.words.R$drawable: int progress_inner_background
 com.riotapps.words.R$drawable: int sbd_bg
 com.riotapps.words.R$drawable: int secondary_button_main
 com.riotapps.words.R$drawable: int spinner
-com.riotapps.words.R$drawable: int splash_left
 com.riotapps.words.R$drawable: int store_item_check
 com.riotapps.words.R$drawable: int tab_content_background
 com.riotapps.words.R$drawable: int tab_form_background
@@ -7663,6 +7697,8 @@ com.riotapps.words.R$drawable: int tile_last_played_bg
 com.riotapps.words.R$drawable: int tile_placed_bg
 com.riotapps.words.R$drawable: int tile_played_bg
 com.riotapps.words.R$drawable: int tile_starter_bg
+com.riotapps.words.R$drawable: int toast_background
+com.riotapps.words.R$drawable: int toast_inner_background
 com.riotapps.words.R$drawable: int top_bg
 com.riotapps.words.R$drawable: int top_logo
 com.riotapps.words.R$drawable: int tray_tile_bg
@@ -7773,6 +7809,7 @@ com.riotapps.words.R$id: int scoreboard
 com.riotapps.words.R$id: int scoreboardNumbers
 com.riotapps.words.R$id: int scroller
 com.riotapps.words.R$id: int tblLetters
+com.riotapps.words.R$id: int toast_root
 com.riotapps.words.R$id: int topAreaLayout
 com.riotapps.words.R$id: int tvActivityTitle
 com.riotapps.words.R$id: int tvAlertTitle
@@ -7968,6 +8005,7 @@ com.riotapps.words.R$layout: int scoreboardlayout
 com.riotapps.words.R$layout: int splash
 com.riotapps.words.R$layout: int store
 com.riotapps.words.R$layout: int swapdialog
+com.riotapps.words.R$layout: int toast
 com.riotapps.words.R$layout: int toparealayout
 com.riotapps.words.R$layout: int twobuttondialog
 com.riotapps.words.R$layout: int wordhintdialog
@@ -8198,6 +8236,7 @@ com.riotapps.words.R$string: int gameboard_recall_button_text
 com.riotapps.words.R$string: int gameboard_resign_button_text
 com.riotapps.words.R$string: int gameboard_shuffle_button_text
 com.riotapps.words.R$string: int gameboard_skip_button_text
+com.riotapps.words.R$string: int gameboard_start_button_text
 com.riotapps.words.R$string: int gameboard_swap_button_text
 com.riotapps.words.R$string: int gameboard_swap_dialog_button_text
 com.riotapps.words.R$string: int gameboard_swap_dialog_please_choose_text
@@ -8239,6 +8278,7 @@ com.riotapps.words.R$string: int oops
 com.riotapps.words.R$string: int post_turn_message_with_auto_play
 com.riotapps.words.R$string: int post_turn_title_with_auto_play
 com.riotapps.words.R$string: int progress_almost_ready
+com.riotapps.words.R$string: int progress_loading
 com.riotapps.words.R$string: int progress_looking_up
 com.riotapps.words.R$string: int progress_opponent_thinking
 com.riotapps.words.R$string: int progress_saving
@@ -8382,7 +8422,6 @@ com.riotapps.words.R$style: int ScoreboardPlayerStyle
 com.riotapps.words.R$style: int ScoreboardScoreStyle
 com.riotapps.words.R$style: int ScoreboardTurnStyle
 com.riotapps.words.R$style: int SplashLayoutStyle
-com.riotapps.words.R$style: int SplashLeftStyle
 com.riotapps.words.R$style: int SplashLogoStyle
 com.riotapps.words.R$style: int StoreItemCheckStyle
 com.riotapps.words.R$style: int StoreItemPriceButtonStyle
@@ -8403,6 +8442,7 @@ com.riotapps.words.R$style: int TextLineItemCenteredStyle
 com.riotapps.words.R$style: int TextLineItemStyle
 com.riotapps.words.R$style: int TextMiniStyle
 com.riotapps.words.R$style: int TextStyle
+com.riotapps.words.R$style: int ToastTextStyle
 com.riotapps.words.R$style: int TopLogoAreaBottomStyle
 com.riotapps.words.R$style: int TopLogoAreaStyle
 com.riotapps.words.R$style: int TopLogoBoardStyle

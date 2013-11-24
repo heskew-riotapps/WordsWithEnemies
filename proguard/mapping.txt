@@ -7862,22 +7862,22 @@ com.riotapps.wordbase.GameSurface -> com.riotapps.wordbase.GameSurface:
     1811:1823:void handleSecondResign() -> u
     1831:1856:void handleGameResignOnClick() -> v
     1859:1863:void dismissCustomDialog() -> w
-    1865:1901:void postPlayNoErrors(com.riotapps.wordbase.ui.PlacedResult) -> postPlayNoErrors
-    1911:1992:void handleGamePlayOnClick(com.riotapps.wordbase.ui.PlacedResult) -> handleGamePlayOnClick
-    2001:2061:void handleGameSkipOnClick() -> handleGameSkipOnClick
-    2064:2066:void onSwapClick() -> x
-    2075:2141:void handleGameSwapOnClick(java.util.List) -> handleGameSwapOnClick
-    2148:2205:void handlePostAutoplay() -> handlePostAutoplay
-    2208:2213:void handlePostPreAutoplay() -> handlePostPreAutoplay
-    2216:2233:void handlePostWordHintTask() -> handlePostWordHintTask
-    2236:2280:void handlePostAdServer() -> handlePostAdServer
-    2283:2312:void handleInterstitialAd() -> y
-    3030:3031:void trackEvent(java.lang.String,java.lang.String,int) -> a
-    3035:3042:void trackEvent(java.lang.String,java.lang.String,java.lang.String,long) -> trackEvent
-    3046:3149:void dialogClose(int) -> dialogClose
-    3152:3171:void dialogClose(int,java.lang.String) -> dialogClose
-    3174:3195:void setHintChoice(java.lang.String) -> a
-    3200:3219:void setupFonts() -> z
+    1865:1911:void postPlayNoErrors(com.riotapps.wordbase.ui.PlacedResult) -> postPlayNoErrors
+    1921:2002:void handleGamePlayOnClick(com.riotapps.wordbase.ui.PlacedResult) -> handleGamePlayOnClick
+    2011:2071:void handleGameSkipOnClick() -> handleGameSkipOnClick
+    2074:2076:void onSwapClick() -> x
+    2085:2151:void handleGameSwapOnClick(java.util.List) -> handleGameSwapOnClick
+    2158:2215:void handlePostAutoplay() -> handlePostAutoplay
+    2218:2223:void handlePostPreAutoplay() -> handlePostPreAutoplay
+    2226:2243:void handlePostWordHintTask() -> handlePostWordHintTask
+    2246:2296:void handlePostAdServer() -> handlePostAdServer
+    2299:2328:void handleInterstitialAd() -> y
+    3046:3047:void trackEvent(java.lang.String,java.lang.String,int) -> a
+    3051:3058:void trackEvent(java.lang.String,java.lang.String,java.lang.String,long) -> trackEvent
+    3062:3165:void dialogClose(int) -> dialogClose
+    3168:3187:void dialogClose(int,java.lang.String) -> dialogClose
+    3190:3211:void setHintChoice(java.lang.String) -> a
+    3216:3235:void setupFonts() -> z
     83:83:java.lang.String access$0() -> b
     89:89:com.chartboost.sdk.Chartboost access$1(com.riotapps.wordbase.GameSurface) -> a
     172:172:com.riotapps.wordbase.hooks.Game access$2(com.riotapps.wordbase.GameSurface) -> b
@@ -7900,24 +7900,24 @@ com.riotapps.wordbase.GameSurface -> com.riotapps.wordbase.GameSurface:
     82:82:int[] $SWITCH_TABLE$com$riotapps$wordbase$ui$GameAction$GameActionType() -> c
 com.riotapps.wordbase.GameSurface$1 -> nv:
     com.riotapps.wordbase.GameSurface this$0 -> a
-    2731:2732:boolean shouldDisplayInterstitial(java.lang.String) -> shouldDisplayInterstitial
-    2753:2754:boolean shouldRequestInterstitial(java.lang.String) -> shouldRequestInterstitial
-    2772:2773:void didCacheInterstitial(java.lang.String) -> didCacheInterstitial
-    2792:2797:void didFailToLoadInterstitial(java.lang.String) -> didFailToLoadInterstitial
-    2814:2823:void didDismissInterstitial(java.lang.String) -> didDismissInterstitial
-    2835:2840:void didCloseInterstitial(java.lang.String) -> didCloseInterstitial
-    2852:2857:void didClickInterstitial(java.lang.String) -> didClickInterstitial
-    2869:2876:void didShowInterstitial(java.lang.String) -> didShowInterstitial
-    2892:2892:boolean shouldDisplayLoadingViewForMoreApps() -> shouldDisplayLoadingViewForMoreApps
-    2907:2907:boolean shouldRequestMoreApps() -> shouldRequestMoreApps
-    2921:2922:boolean shouldDisplayMoreApps() -> shouldDisplayMoreApps
-    2940:2943:void didFailToLoadMoreApps() -> didFailToLoadMoreApps
-    2954:2955:void didCacheMoreApps() -> didCacheMoreApps
-    2968:2971:void didDismissMoreApps() -> didDismissMoreApps
-    2983:2986:void didCloseMoreApps() -> didCloseMoreApps
-    2998:3001:void didClickMoreApps() -> didClickMoreApps
-    3013:3014:void didShowMoreApps() -> didShowMoreApps
-    3024:3024:boolean shouldRequestInterstitialsInFirstSession() -> shouldRequestInterstitialsInFirstSession
+    2747:2748:boolean shouldDisplayInterstitial(java.lang.String) -> shouldDisplayInterstitial
+    2769:2770:boolean shouldRequestInterstitial(java.lang.String) -> shouldRequestInterstitial
+    2788:2789:void didCacheInterstitial(java.lang.String) -> didCacheInterstitial
+    2808:2813:void didFailToLoadInterstitial(java.lang.String) -> didFailToLoadInterstitial
+    2830:2839:void didDismissInterstitial(java.lang.String) -> didDismissInterstitial
+    2851:2856:void didCloseInterstitial(java.lang.String) -> didCloseInterstitial
+    2868:2873:void didClickInterstitial(java.lang.String) -> didClickInterstitial
+    2885:2892:void didShowInterstitial(java.lang.String) -> didShowInterstitial
+    2908:2908:boolean shouldDisplayLoadingViewForMoreApps() -> shouldDisplayLoadingViewForMoreApps
+    2923:2923:boolean shouldRequestMoreApps() -> shouldRequestMoreApps
+    2937:2938:boolean shouldDisplayMoreApps() -> shouldDisplayMoreApps
+    2956:2959:void didFailToLoadMoreApps() -> didFailToLoadMoreApps
+    2970:2971:void didCacheMoreApps() -> didCacheMoreApps
+    2984:2987:void didDismissMoreApps() -> didDismissMoreApps
+    2999:3002:void didCloseMoreApps() -> didCloseMoreApps
+    3014:3017:void didClickMoreApps() -> didClickMoreApps
+    3029:3030:void didShowMoreApps() -> didShowMoreApps
+    3040:3040:boolean shouldRequestInterstitialsInFirstSession() -> shouldRequestInterstitialsInFirstSession
 com.riotapps.wordbase.GameSurface$2 -> nw:
     com.riotapps.wordbase.GameSurface this$0 -> a
     1579:1580:void run() -> run
@@ -7932,14 +7932,14 @@ com.riotapps.wordbase.GameSurface$4 -> ny:
     1754:1760:void run() -> run
 com.riotapps.wordbase.GameSurface$AutoplayTask -> nz:
     com.riotapps.wordbase.GameSurface this$0 -> a
-    3225:3236:java.lang.Void doInBackground(java.lang.Void[]) -> a
-    3245:3246:void onPostExecute(java.lang.Void) -> a
+    3241:3252:java.lang.Void doInBackground(java.lang.Void[]) -> a
+    3261:3262:void onPostExecute(java.lang.Void) -> a
     1:1:void onPostExecute(java.lang.Object) -> onPostExecute
     1:1:java.lang.Object doInBackground(java.lang.Object[]) -> doInBackground
 com.riotapps.wordbase.GameSurface$PreAutoplayTask -> oa:
     com.riotapps.wordbase.GameSurface this$0 -> a
-    3256:3269:java.lang.Void doInBackground(java.lang.Void[]) -> a
-    3279:3282:void onPostExecute(java.lang.Void) -> a
+    3272:3285:java.lang.Void doInBackground(java.lang.Void[]) -> a
+    3295:3298:void onPostExecute(java.lang.Void) -> a
     1:1:void onPostExecute(java.lang.Object) -> onPostExecute
     1:1:java.lang.Object doInBackground(java.lang.Object[]) -> doInBackground
 com.riotapps.wordbase.GameSurface$SwapDialog -> ob:
@@ -7964,25 +7964,25 @@ com.riotapps.wordbase.GameSurface$SwapDialog -> ob:
     android.view.View layout -> u
     android.content.Context context -> a
     com.riotapps.wordbase.GameSurface this$0 -> b
-    2379:2383:void onCreate(android.os.Bundle) -> onCreate
-    2388:2498:void onStart() -> onStart
-    2503:2505:void dismiss() -> dismiss
-    2509:2531:void handleOKClick() -> a
-    2535:2594:void onClick(android.view.View) -> onClick
-    2315:2315:com.riotapps.wordbase.GameSurface access$0(com.riotapps.wordbase.GameSurface$SwapDialog) -> a
+    2395:2399:void onCreate(android.os.Bundle) -> onCreate
+    2404:2514:void onStart() -> onStart
+    2519:2521:void dismiss() -> dismiss
+    2525:2547:void handleOKClick() -> a
+    2551:2610:void onClick(android.view.View) -> onClick
+    2331:2331:com.riotapps.wordbase.GameSurface access$0(com.riotapps.wordbase.GameSurface$SwapDialog) -> a
 com.riotapps.wordbase.GameSurface$SwapDialog$1 -> oc:
     com.riotapps.wordbase.GameSurface$SwapDialog this$1 -> a
-    2464:2469:void onClick(android.view.View) -> onClick
+    2480:2485:void onClick(android.view.View) -> onClick
 com.riotapps.wordbase.GameSurface$SwapDialog$2 -> od:
     com.riotapps.wordbase.GameSurface$SwapDialog this$1 -> a
-    2478:2483:void onClick(android.view.View) -> onClick
+    2494:2499:void onClick(android.view.View) -> onClick
 com.riotapps.wordbase.GameSurface$SwapDialog$3 -> oe:
     com.riotapps.wordbase.GameSurface$SwapDialog this$1 -> a
-    2489:2494:void onCancel(android.content.DialogInterface) -> onCancel
+    2505:2510:void onCancel(android.content.DialogInterface) -> onCancel
 com.riotapps.wordbase.GameSurface$WordHintTask -> of:
     com.riotapps.wordbase.GameSurface this$0 -> a
-    3292:3336:java.lang.Boolean doInBackground(java.lang.Void[]) -> a
-    3346:3349:void onPostExecute(java.lang.Boolean) -> a
+    3308:3352:java.lang.Boolean doInBackground(java.lang.Void[]) -> a
+    3362:3365:void onPostExecute(java.lang.Boolean) -> a
     1:1:void onPostExecute(java.lang.Object) -> onPostExecute
     1:1:java.lang.Object doInBackground(java.lang.Object[]) -> doInBackground
 com.riotapps.wordbase.GameSurface$handleButtonSwitchRunnable -> og:
@@ -8011,7 +8011,7 @@ com.riotapps.wordbase.Main -> com.riotapps.wordbase.Main:
     77:138:void onCreate(android.os.Bundle) -> onCreate
     143:147:void checkFirstTimeStatus() -> b
     150:156:void setupMenu() -> c
-    162:168:void trackEvent(java.lang.String,java.lang.String,long) -> a
+    162:168:void trackEvent(java.lang.String,java.lang.String,long) -> trackEvent
     175:181:void onRestart() -> onRestart
     186:196:void onResume() -> onResume
     202:204:void onStart() -> onStart
@@ -8024,9 +8024,9 @@ com.riotapps.wordbase.Main -> com.riotapps.wordbase.Main:
     391:412:void onActivityResult(int,int,android.content.Intent) -> onActivityResult
     415:419:void dismissCustomDialog() -> e
     422:436:void handleGameStartPrompt(int) -> b
-    445:464:void handleGameStartOnClick() -> f
+    445:464:void handleGameStartOnClick(android.content.Context,com.riotapps.wordbase.hooks.Player,int) -> handleGameStartOnClick
     469:489:void dialogClose(int) -> dialogClose
-    493:496:void setupFonts() -> g
+    493:496:void setupFonts() -> f
     502:502:void dialogClose(int,java.lang.String) -> dialogClose
 com.riotapps.wordbase.R -> com.riotapps.wordbase.R:
 com.riotapps.wordbase.R$array -> com.riotapps.wordbase.R$array:
@@ -8097,6 +8097,9 @@ com.riotapps.wordbase.R$color -> com.riotapps.wordbase.R$color:
     int sub_text_color -> sub_text_color
     int tab_background_color -> tab_background_color
     int title_bar_background_color -> title_bar_background_color
+    int toast_background_color -> toast_background_color
+    int toast_inner_background_color -> toast_inner_background_color
+    int toast_text_color -> toast_text_color
     int tray_background -> tray_background
 com.riotapps.wordbase.R$drawable -> com.riotapps.wordbase.R$drawable:
     int alert_background -> alert_background
@@ -8176,6 +8179,8 @@ com.riotapps.wordbase.R$drawable -> com.riotapps.wordbase.R$drawable:
     int tile_placed_bg -> tile_placed_bg
     int tile_played_bg -> tile_played_bg
     int tile_starter_bg -> tile_starter_bg
+    int toast_background -> toast_background
+    int toast_inner_background -> toast_inner_background
     int top_bg -> top_bg
     int top_logo -> top_logo
     int tray_tile_bg -> tray_tile_bg
@@ -8285,6 +8290,7 @@ com.riotapps.wordbase.R$id -> com.riotapps.wordbase.R$id:
     int scoreboardNumbers -> scoreboardNumbers
     int scroller -> scroller
     int tblLetters -> tblLetters
+    int toast_root -> toast_root
     int topAreaLayout -> topAreaLayout
     int tvActivityTitle -> tvActivityTitle
     int tvAlertTitle -> tvAlertTitle
@@ -8475,6 +8481,7 @@ com.riotapps.wordbase.R$layout -> com.riotapps.wordbase.R$layout:
     int splash -> splash
     int store -> store
     int swapdialog -> swapdialog
+    int toast -> toast
     int toparealayout -> toparealayout
     int twobuttondialog -> twobuttondialog
     int wordhintdialog -> wordhintdialog
@@ -8701,6 +8708,7 @@ com.riotapps.wordbase.R$string -> com.riotapps.wordbase.R$string:
     int gameboard_resign_button_text -> gameboard_resign_button_text
     int gameboard_shuffle_button_text -> gameboard_shuffle_button_text
     int gameboard_skip_button_text -> gameboard_skip_button_text
+    int gameboard_start_button_text -> gameboard_start_button_text
     int gameboard_swap_button_text -> gameboard_swap_button_text
     int gameboard_swap_dialog_button_text -> gameboard_swap_dialog_button_text
     int gameboard_swap_dialog_please_choose_text -> gameboard_swap_dialog_please_choose_text
@@ -8742,6 +8750,7 @@ com.riotapps.wordbase.R$string -> com.riotapps.wordbase.R$string:
     int post_turn_message_with_auto_play -> post_turn_message_with_auto_play
     int post_turn_title_with_auto_play -> post_turn_title_with_auto_play
     int progress_almost_ready -> progress_almost_ready
+    int progress_loading -> progress_loading
     int progress_looking_up -> progress_looking_up
     int progress_opponent_thinking -> progress_opponent_thinking
     int progress_saving -> progress_saving
@@ -8904,6 +8913,7 @@ com.riotapps.wordbase.R$style -> com.riotapps.wordbase.R$style:
     int TextLineItemStyle -> TextLineItemStyle
     int TextMiniStyle -> TextMiniStyle
     int TextStyle -> TextStyle
+    int ToastTextStyle -> ToastTextStyle
     int TopLogoAreaBottomStyle -> TopLogoAreaBottomStyle
     int TopLogoAreaStyle -> TopLogoAreaStyle
     int TopLogoBoardStyle -> TopLogoBoardStyle
@@ -9264,7 +9274,8 @@ com.riotapps.wordbase.hooks.AlphabetService -> com.riotapps.wordbase.hooks.Alpha
     73:80:java.lang.String[] getConsonants() -> getConsonants
     86:91:java.lang.String getRandomVowel() -> getRandomVowel
     97:107:java.util.List getRandomConsonants() -> getRandomConsonants
-    111:166:java.util.List getHopper(java.lang.String,java.util.List) -> getHopper
+    114:151:java.util.List getRaceLetters() -> getRaceLetters
+    155:210:java.util.List getHopper(java.lang.String,java.util.List) -> getHopper
 com.riotapps.wordbase.hooks.AlphabetService$1 -> pe:
     com.riotapps.wordbase.hooks.AlphabetService this$0 -> d
 com.riotapps.wordbase.hooks.AlphabetService$2 -> pf:
@@ -9664,21 +9675,21 @@ com.riotapps.wordbase.hooks.PlayerGame -> com.riotapps.wordbase.hooks.PlayerGame
     189:189:boolean isHasBeenAlertedToEndOfGame() -> isHasBeenAlertedToEndOfGame
     193:194:void setHasBeenAlertedToEndOfGame(boolean) -> setHasBeenAlertedToEndOfGame
     198:198:boolean isTrayFull() -> isTrayFull
-    205:357:java.util.List getSortedTrayLetterSets(int) -> getSortedTrayLetterSets
-    416:419:boolean isActive() -> isActive
-    423:423:int getPlayerOrder() -> getPlayerOrder
-    427:428:void setPlayerOrder(int) -> setPlayerOrder
-    431:431:int getTrayVersion() -> getTrayVersion
-    435:436:void setTrayVersion(int) -> setTrayVersion
-    441:441:int describeContents() -> describeContents
-    447:465:void writeToParcel(android.os.Parcel,int) -> writeToParcel
-    507:515:void removeFirstMatchingLetter(java.lang.String) -> removeFirstMatchingLetter
-    518:520:void addLetterToTray(java.lang.String) -> addLetterToTray
-    523:532:boolean doesTrayContainAVowel() -> doesTrayContainAVowel
-    537:546:boolean doesTrayContainAConsonant() -> doesTrayContainAConsonant
+    205:358:java.util.List getSortedTrayLetterSets(int) -> getSortedTrayLetterSets
+    417:420:boolean isActive() -> isActive
+    424:424:int getPlayerOrder() -> getPlayerOrder
+    428:429:void setPlayerOrder(int) -> setPlayerOrder
+    432:432:int getTrayVersion() -> getTrayVersion
+    436:437:void setTrayVersion(int) -> setTrayVersion
+    442:442:int describeContents() -> describeContents
+    448:466:void writeToParcel(android.os.Parcel,int) -> writeToParcel
+    508:516:void removeFirstMatchingLetter(java.lang.String) -> removeFirstMatchingLetter
+    519:521:void addLetterToTray(java.lang.String) -> addLetterToTray
+    524:533:boolean doesTrayContainAVowel() -> doesTrayContainAVowel
+    538:547:boolean doesTrayContainAConsonant() -> doesTrayContainAConsonant
 com.riotapps.wordbase.hooks.PlayerGame$1 -> pj:
-    470:470:com.riotapps.wordbase.hooks.PlayerGame createFromParcel(android.os.Parcel) -> a
-    474:474:com.riotapps.wordbase.hooks.PlayerGame[] newArray(int) -> a
+    471:471:com.riotapps.wordbase.hooks.PlayerGame createFromParcel(android.os.Parcel) -> a
+    475:475:com.riotapps.wordbase.hooks.PlayerGame[] newArray(int) -> a
     1:1:java.lang.Object createFromParcel(android.os.Parcel) -> createFromParcel
     1:1:java.lang.Object[] newArray(int) -> newArray
 com.riotapps.wordbase.hooks.PlayerService -> com.riotapps.wordbase.hooks.PlayerService:
@@ -9938,21 +9949,34 @@ com.riotapps.wordbase.ui.CustomProgressDialog -> com.riotapps.wordbase.ui.Custom
 com.riotapps.wordbase.ui.CustomProgressDialog$1 -> ps:
     com.riotapps.wordbase.ui.CustomProgressDialog this$0 -> a
     85:86:void run() -> run
+com.riotapps.wordbase.ui.CustomToast -> com.riotapps.wordbase.ui.CustomToast:
+    java.lang.String TAG -> a
+    java.lang.String dialogText -> b
+    android.widget.TextView dialog_text -> c
+    int numMillisecondsInView -> d
+    47:48:void onCreate(android.os.Bundle) -> onCreate
+    53:83:void onStart() -> onStart
+    89:90:void setMessage(java.lang.CharSequence) -> setMessage
+    94:96:void show() -> show
+com.riotapps.wordbase.ui.CustomToast$1 -> pt:
+    com.riotapps.wordbase.ui.CustomToast this$0 -> a
+    72:72:void onTick(long) -> onTick
+    76:77:void onFinish() -> onFinish
 com.riotapps.wordbase.ui.DialogManager -> com.riotapps.wordbase.ui.DialogManager:
     18:19:void SetupAlert(android.content.Context,java.lang.String,java.lang.String) -> SetupAlert
     22:23:void SetupAlert(android.content.Context,java.lang.String,java.lang.String,boolean) -> SetupAlert
     26:27:void SetupAlert(android.content.Context,java.lang.String,java.lang.String,int) -> SetupAlert
     30:31:void SetupAlert(android.content.Context,java.lang.String,java.lang.String,boolean,int) -> SetupAlert
     34:90:void SetupAlert(android.content.Context,java.lang.String,java.lang.String,java.lang.String,boolean,int) -> SetupAlert
-com.riotapps.wordbase.ui.DialogManager$1 -> pt:
+com.riotapps.wordbase.ui.DialogManager$1 -> pu:
     android.app.Dialog val$dialog -> a
     java.util.Timer val$t -> b
     56:61:void onClick(android.view.View) -> onClick
-com.riotapps.wordbase.ui.DialogManager$2 -> pu:
+com.riotapps.wordbase.ui.DialogManager$2 -> pv:
     android.app.Dialog val$dialog -> a
     java.util.Timer val$t -> b
     69:74:void onClick(android.view.View) -> onClick
-com.riotapps.wordbase.ui.DialogManager$3 -> pv:
+com.riotapps.wordbase.ui.DialogManager$3 -> pw:
     android.app.Dialog val$dialog -> a
     java.util.Timer val$t -> b
     83:85:void run() -> run
@@ -10029,7 +10053,7 @@ com.riotapps.wordbase.ui.GameStateService -> com.riotapps.wordbase.ui.GameStateS
     45:66:com.riotapps.wordbase.ui.GameState clearGameState(java.lang.String) -> clearGameState
     71:91:void removeGameState(java.lang.String) -> removeGameState
     95:114:void setGameState(com.riotapps.wordbase.ui.GameState) -> setGameState
-com.riotapps.wordbase.ui.GameStateService$1 -> pw:
+com.riotapps.wordbase.ui.GameStateService$1 -> px:
 com.riotapps.wordbase.ui.GameSurfaceView -> com.riotapps.wordbase.ui.GameSurfaceView:
     com.riotapps.wordbase.GameSurface parent -> a
     java.lang.String TAG -> k
@@ -10158,73 +10182,71 @@ com.riotapps.wordbase.ui.GameSurfaceView -> com.riotapps.wordbase.ui.GameSurface
     347:415:void construct(com.riotapps.wordbase.GameSurface) -> construct
     418:425:void loadGame() -> loadGame
     429:744:void SetDerivedValues() -> j
-    750:760:android.graphics.Bitmap decodeSampledBitmapFromResource(android.content.res.Resources,int,int,int) -> decodeSampledBitmapFromResource
-    767:785:int calculateInSampleSize(android.graphics.BitmapFactory$Options,int,int) -> calculateInSampleSize
-    790:792:void surfaceChanged(android.view.SurfaceHolder,int,int,int) -> surfaceChanged
-    796:801:void surfaceCreated(android.view.SurfaceHolder) -> surfaceCreated
-    805:810:void surfaceDestroyed(android.view.SurfaceHolder) -> surfaceDestroyed
-    813:817:void dismissDialog() -> k
-    820:824:void onPause() -> onPause
-    827:830:void onStop() -> onStop
-    838:848:void onRestart() -> onRestart
-    851:854:void onDestroy() -> onDestroy
-    857:859:void onWindowFocusChanged() -> onWindowFocusChanged
-    862:869:void onResume() -> onResume
-    874:885:void startThread() -> l
-    889:891:void stopThreadLoop() -> stopThreadLoop
-    894:896:void startThreadLoop() -> startThreadLoop
-    902:921:void stopThread() -> m
-    927:958:boolean onTouchEvent(android.view.MotionEvent) -> onTouchEvent
-    1497:1499:void setReadyToDrawFromOnTouch(long) -> setReadyToDrawFromOnTouch
-    1503:1597:void handleDropOnTray() -> n
-    1602:1612:void resetPointsView() -> o
-    1618:1642:int findTapTargetTile(int,int) -> a
-    1648:1691:com.riotapps.wordbase.ui.DropTarget findClosestTrayTile(int,int) -> b
-    1698:1740:void setClosestDropTarget() -> p
-    1743:1818:com.riotapps.wordbase.ui.DropTarget findClosestOpenTile(int,int) -> c
-    1824:1825:void drawFromThread(android.graphics.Canvas) -> drawFromThread
-    1830:2004:void onDraw(android.graphics.Canvas) -> onDraw
-    2012:2031:void drawDraggingTile(android.graphics.Canvas) -> a
-    2034:2047:com.riotapps.wordbase.ui.Coordinate findCenterOfDraggingTile() -> q
-    2052:2126:com.riotapps.wordbase.ui.Coordinate drawDraggingTileGuts(android.graphics.Canvas,java.lang.String) -> a
-    2131:2136:void drawFullBoard(android.graphics.Canvas) -> b
-    2139:2241:void drawBoardOnMove(android.graphics.Canvas,int,int) -> a
-    2266:2288:void drawMomentumScroll(android.graphics.Canvas) -> c
-    2311:2337:void drawBoardZoomOnUp(android.graphics.Canvas) -> d
-    2340:2368:void drawZoomedBoardByDiff(android.graphics.Canvas,int,int) -> b
-    2371:2381:void drawZoomedBoard(android.graphics.Canvas,int,int) -> c
-    2390:2445:void drawZoomedBoardGuts(android.graphics.Canvas,com.riotapps.wordbase.ui.GameTile) -> a
-    2452:2610:void drawUpperGap(android.graphics.Canvas) -> e
-    2613:2637:void drawLowerGap(android.graphics.Canvas) -> f
-    2642:2726:void drawTray(android.graphics.Canvas) -> g
-    2729:2808:void setHintLetters(com.riotapps.wordbase.ui.PlacedResult) -> setHintLetters
-    2814:2829:void recallLetters() -> recallLetters
-    2838:2850:void setButtonStates() -> r
-    2858:2864:void setInitialButtonStates() -> setInitialButtonStates
-    2869:2888:void resetGameAfterRefresh() -> resetGameAfterRefresh
-    2893:2919:void resetGameAfterPlay() -> resetGameAfterPlay
-    2922:2927:void clearPlacedTiles() -> clearPlacedTiles
-    2931:2944:void onPlayClick() -> onPlayClick
-    2947:3053:void postPlayNoErrors_____(com.riotapps.wordbase.ui.PlacedResult) -> postPlayNoErrors_____
-    3061:3072:boolean isTrayFull() -> isTrayFull
-    3076:3090:void shuffleTray() -> shuffleTray
-    3095:3119:void LoadExtras() -> s
-    3137:3157:void LoadTray() -> t
-    3163:3267:void LoadTiles() -> u
-    3328:3404:void setFullViewRegionPosition(com.riotapps.wordbase.ui.GameTile) -> setFullViewRegionPosition
-    3410:3467:int FindTileFromPositionInZoomedMode(int,int) -> d
-    3472:3483:int FindTileFromPositionInFullViewMode(int,int) -> e
-    3488:3499:int FindTrayTileFromPosition(int,int) -> f
-    3505:3561:void drawFullView(android.graphics.Canvas) -> h
-    3564:3576:void drawBonusText(android.graphics.Canvas,java.lang.String,int,int,int) -> a
-    3579:3614:void drawLetter(android.graphics.Canvas,java.lang.String,int,int,int,boolean) -> a
+    750:752:void surfaceChanged(android.view.SurfaceHolder,int,int,int) -> surfaceChanged
+    756:761:void surfaceCreated(android.view.SurfaceHolder) -> surfaceCreated
+    765:770:void surfaceDestroyed(android.view.SurfaceHolder) -> surfaceDestroyed
+    773:777:void dismissDialog() -> k
+    780:784:void onPause() -> onPause
+    787:790:void onStop() -> onStop
+    798:808:void onRestart() -> onRestart
+    811:814:void onDestroy() -> onDestroy
+    817:819:void onWindowFocusChanged() -> onWindowFocusChanged
+    822:829:void onResume() -> onResume
+    834:845:void startThread() -> l
+    849:851:void stopThreadLoop() -> stopThreadLoop
+    854:856:void startThreadLoop() -> startThreadLoop
+    862:881:void stopThread() -> m
+    887:918:boolean onTouchEvent(android.view.MotionEvent) -> onTouchEvent
+    1457:1459:void setReadyToDrawFromOnTouch(long) -> setReadyToDrawFromOnTouch
+    1463:1557:void handleDropOnTray() -> n
+    1562:1572:void resetPointsView() -> o
+    1578:1602:int findTapTargetTile(int,int) -> a
+    1608:1651:com.riotapps.wordbase.ui.DropTarget findClosestTrayTile(int,int) -> b
+    1658:1700:void setClosestDropTarget() -> p
+    1703:1778:com.riotapps.wordbase.ui.DropTarget findClosestOpenTile(int,int) -> c
+    1784:1785:void drawFromThread(android.graphics.Canvas) -> drawFromThread
+    1790:1964:void onDraw(android.graphics.Canvas) -> onDraw
+    1972:1991:void drawDraggingTile(android.graphics.Canvas) -> a
+    1994:2007:com.riotapps.wordbase.ui.Coordinate findCenterOfDraggingTile() -> q
+    2012:2086:com.riotapps.wordbase.ui.Coordinate drawDraggingTileGuts(android.graphics.Canvas,java.lang.String) -> a
+    2091:2096:void drawFullBoard(android.graphics.Canvas) -> b
+    2099:2201:void drawBoardOnMove(android.graphics.Canvas,int,int) -> a
+    2226:2248:void drawMomentumScroll(android.graphics.Canvas) -> c
+    2271:2297:void drawBoardZoomOnUp(android.graphics.Canvas) -> d
+    2300:2328:void drawZoomedBoardByDiff(android.graphics.Canvas,int,int) -> b
+    2331:2341:void drawZoomedBoard(android.graphics.Canvas,int,int) -> c
+    2350:2405:void drawZoomedBoardGuts(android.graphics.Canvas,com.riotapps.wordbase.ui.GameTile) -> a
+    2412:2570:void drawUpperGap(android.graphics.Canvas) -> e
+    2573:2597:void drawLowerGap(android.graphics.Canvas) -> f
+    2602:2686:void drawTray(android.graphics.Canvas) -> g
+    2689:2768:void setHintLetters(com.riotapps.wordbase.ui.PlacedResult) -> setHintLetters
+    2774:2789:void recallLetters() -> recallLetters
+    2798:2810:void setButtonStates() -> r
+    2818:2824:void setInitialButtonStates() -> setInitialButtonStates
+    2829:2848:void resetGameAfterRefresh() -> resetGameAfterRefresh
+    2853:2879:void resetGameAfterPlay() -> resetGameAfterPlay
+    2882:2887:void clearPlacedTiles() -> clearPlacedTiles
+    2891:2904:void onPlayClick() -> onPlayClick
+    2907:3013:void postPlayNoErrors_____(com.riotapps.wordbase.ui.PlacedResult) -> postPlayNoErrors_____
+    3021:3032:boolean isTrayFull() -> isTrayFull
+    3036:3050:void shuffleTray() -> shuffleTray
+    3055:3079:void LoadExtras() -> s
+    3097:3117:void LoadTray() -> t
+    3123:3227:void LoadTiles() -> u
+    3288:3364:void setFullViewRegionPosition(com.riotapps.wordbase.ui.GameTile) -> setFullViewRegionPosition
+    3370:3427:int FindTileFromPositionInZoomedMode(int,int) -> d
+    3432:3443:int FindTileFromPositionInFullViewMode(int,int) -> e
+    3448:3459:int FindTrayTileFromPosition(int,int) -> f
+    3465:3521:void drawFullView(android.graphics.Canvas) -> h
+    3524:3536:void drawBonusText(android.graphics.Canvas,java.lang.String,int,int,int) -> a
+    3539:3574:void drawLetter(android.graphics.Canvas,java.lang.String,int,int,int,boolean) -> a
     49:49:java.lang.String access$0() -> a
     428:428:void access$1(com.riotapps.wordbase.ui.GameSurfaceView) -> a
-    3092:3092:void access$2(com.riotapps.wordbase.ui.GameSurfaceView) -> b
+    3052:3052:void access$2(com.riotapps.wordbase.ui.GameSurfaceView) -> b
     181:181:int access$3(com.riotapps.wordbase.ui.GameSurfaceView) -> c
     172:172:void access$4(com.riotapps.wordbase.ui.GameSurfaceView,boolean) -> a
     46:46:int[] $SWITCH_TABLE$com$riotapps$wordbase$hooks$TileLayoutService$eDefaultTile() -> b
-com.riotapps.wordbase.ui.GameSurfaceView$1 -> px:
+com.riotapps.wordbase.ui.GameSurfaceView$1 -> py:
     com.riotapps.wordbase.ui.GameSurfaceView this$0 -> a
     389:410:void run() -> run
 com.riotapps.wordbase.ui.GameThread -> com.riotapps.wordbase.ui.GameThread:
@@ -10366,10 +10388,10 @@ com.riotapps.wordbase.ui.HopperPeekDialog -> com.riotapps.wordbase.ui.HopperPeek
     205:222:void onClick(android.view.View) -> onClick
     225:311:void loadLetters() -> b
     196:196:void access$0(com.riotapps.wordbase.ui.HopperPeekDialog) -> a
-com.riotapps.wordbase.ui.HopperPeekDialog$1 -> py:
+com.riotapps.wordbase.ui.HopperPeekDialog$1 -> pz:
     com.riotapps.wordbase.ui.HopperPeekDialog this$0 -> a
     147:148:void onClick(android.view.View) -> onClick
-com.riotapps.wordbase.ui.HopperPeekDialog$2 -> pz:
+com.riotapps.wordbase.ui.HopperPeekDialog$2 -> qa:
     com.riotapps.wordbase.ui.HopperPeekDialog this$0 -> a
     155:157:void onCancel(android.content.DialogInterface) -> onCancel
 com.riotapps.wordbase.ui.MenuUtils -> com.riotapps.wordbase.ui.MenuUtils:
@@ -10541,10 +10563,10 @@ com.riotapps.wordbase.ui.WordHintDialog -> com.riotapps.wordbase.ui.WordHintDial
     297:305:void loadHints() -> b
     309:323:android.view.View getHintView(com.riotapps.wordbase.ui.WordHint) -> a
     265:265:void access$0(com.riotapps.wordbase.ui.WordHintDialog) -> a
-com.riotapps.wordbase.ui.WordHintDialog$1 -> qa:
+com.riotapps.wordbase.ui.WordHintDialog$1 -> qb:
     com.riotapps.wordbase.ui.WordHintDialog this$0 -> a
     181:182:void onClick(android.view.View) -> onClick
-com.riotapps.wordbase.ui.WordHintDialog$2 -> qb:
+com.riotapps.wordbase.ui.WordHintDialog$2 -> qc:
     com.riotapps.wordbase.ui.WordHintDialog this$0 -> a
     189:191:void onCancel(android.content.DialogInterface) -> onCancel
 com.riotapps.wordbase.ui.WordLoaderThread -> com.riotapps.wordbase.ui.WordLoaderThread:
@@ -10723,6 +10745,9 @@ com.riotapps.wordbase.utils.Constants -> com.riotapps.wordbase.utils.Constants:
     java.lang.String TRACKER_LABEL_SKIP_CANCEL -> TRACKER_LABEL_SKIP_CANCEL
     java.lang.String TRACKER_LABEL_SKIP_DISMISS -> TRACKER_LABEL_SKIP_DISMISS
     java.lang.String TRACKER_LABEL_SKIP_OK -> TRACKER_LABEL_SKIP_OK
+    java.lang.String TRACKER_LABEL_START_CANCEL -> TRACKER_LABEL_START_CANCEL
+    java.lang.String TRACKER_LABEL_START_DISMISS -> TRACKER_LABEL_START_DISMISS
+    java.lang.String TRACKER_LABEL_START_OK -> TRACKER_LABEL_START_OK
     java.lang.String TRACKER_LABEL_SWAP_INITIAL -> TRACKER_LABEL_SWAP_INITIAL
     java.lang.String TRACKER_LABEL_SWAP_CANCEL -> TRACKER_LABEL_SWAP_CANCEL
     java.lang.String TRACKER_LABEL_SWAP_DISMISS -> TRACKER_LABEL_SWAP_DISMISS
@@ -10932,6 +10957,9 @@ com.riotapps.wordbase.utils.Constants -> com.riotapps.wordbase.utils.Constants:
     int RETURN_CODE_WORD_HINT_DIALOG_CHOICE_MADE -> RETURN_CODE_WORD_HINT_DIALOG_CHOICE_MADE
     int RETURN_CODE_WORD_HINT_CLOSE -> RETURN_CODE_WORD_HINT_CLOSE
     int RETURN_CODE_CUSTOM_DIALOG_RESIGN_OK_1_CLICKED -> RETURN_CODE_CUSTOM_DIALOG_RESIGN_OK_1_CLICKED
+    int RETURN_CODE_CUSTOM_DIALOG_START_OK_CLICKED -> RETURN_CODE_CUSTOM_DIALOG_START_OK_CLICKED
+    int RETURN_CODE_CUSTOM_DIALOG_START_CANCEL_CLICKED -> RETURN_CODE_CUSTOM_DIALOG_START_CANCEL_CLICKED
+    int RETURN_CODE_CUSTOM_DIALOG_START_CLOSE_CLICKED -> RETURN_CODE_CUSTOM_DIALOG_START_CLOSE_CLICKED
     java.lang.String DIRECTION_ABOVE -> DIRECTION_ABOVE
     java.lang.String DIRECTION_BELOW -> DIRECTION_BELOW
     java.lang.String DIRECTION_LEFT -> DIRECTION_LEFT
@@ -10974,6 +11002,8 @@ com.riotapps.wordbase.utils.Constants -> com.riotapps.wordbase.utils.Constants:
     int WORD_HINTS_ALLOWED -> WORD_HINTS_ALLOWED
     int WORD_HINTS_NO_MORE_PREVIEWS -> WORD_HINTS_NO_MORE_PREVIEWS
     int WORD_HINTS_MAX_USED_FOR_GAME -> WORD_HINTS_MAX_USED_FOR_GAME
+    boolean GAME_SURFACE_SKIP_PRE_PLAY_PROMPT -> GAME_SURFACE_SKIP_PRE_PLAY_PROMPT
+    boolean GAME_SURFACE_SKIP_POST_PLAY_PROMPT -> GAME_SURFACE_SKIP_POST_PLAY_PROMPT
 com.riotapps.wordbase.utils.DesignByContractException -> com.riotapps.wordbase.utils.DesignByContractException:
     long serialVersionUID -> serialVersionUID
     int errorCode -> a
@@ -11003,7 +11033,7 @@ com.riotapps.wordbase.utils.DiskLruCache -> com.riotapps.wordbase.utils.DiskLruC
     318:318:java.lang.String createFilePath(java.lang.String) -> createFilePath
     328:330:void setCompressParams(android.graphics.Bitmap$CompressFormat,int) -> setCompressParams
     343:351:boolean writeBitmapToFile(android.graphics.Bitmap,java.lang.String) -> a
-com.riotapps.wordbase.utils.DiskLruCache$1 -> qc:
+com.riotapps.wordbase.utils.DiskLruCache$1 -> qd:
     89:89:boolean accept(java.io.File,java.lang.String) -> accept
 com.riotapps.wordbase.utils.Enums -> com.riotapps.wordbase.utils.Enums:
 com.riotapps.wordbase.utils.Enums$RequestType -> com.riotapps.wordbase.utils.Enums$RequestType:
@@ -11041,7 +11071,7 @@ com.riotapps.wordbase.utils.ImageCache -> com.riotapps.wordbase.utils.ImageCache
     214:217:android.graphics.Bitmap getBitmapFromDiskCache(java.lang.String) -> getBitmapFromDiskCache
     221:223:void clearCaches() -> clearCaches
     42:42:android.graphics.Bitmap$CompressFormat access$0() -> a
-com.riotapps.wordbase.utils.ImageCache$1 -> qd:
+com.riotapps.wordbase.utils.ImageCache$1 -> qe:
     com.riotapps.wordbase.utils.ImageCache this$0 -> a
     168:168:int sizeOf(java.lang.String,android.graphics.Bitmap) -> a
     1:1:int sizeOf(java.lang.Object,java.lang.Object) -> sizeOf
@@ -11064,8 +11094,10 @@ com.riotapps.wordbase.utils.ImageFetcher -> com.riotapps.wordbase.utils.ImageFet
     114:114:android.graphics.Bitmap processBitmap(java.lang.Object) -> processBitmap
     126:174:java.io.File downloadBitmap(android.content.Context,java.lang.String) -> downloadBitmap
 com.riotapps.wordbase.utils.ImageHelper -> com.riotapps.wordbase.utils.ImageHelper:
-    17:54:android.graphics.Bitmap getRoundedCornerBitmap(android.graphics.Bitmap,int,int) -> getRoundedCornerBitmap
-    59:69:android.graphics.Bitmap getResizedBitmap(android.graphics.Bitmap,int,int) -> getResizedBitmap
+    19:56:android.graphics.Bitmap getRoundedCornerBitmap(android.graphics.Bitmap,int,int) -> getRoundedCornerBitmap
+    61:71:android.graphics.Bitmap getResizedBitmap(android.graphics.Bitmap,int,int) -> getResizedBitmap
+    78:88:android.graphics.Bitmap decodeSampledBitmapFromResource(android.content.res.Resources,int,int,int) -> decodeSampledBitmapFromResource
+    95:113:int calculateInSampleSize(android.graphics.BitmapFactory$Options,int,int) -> calculateInSampleSize
 com.riotapps.wordbase.utils.ImageResizer -> com.riotapps.wordbase.utils.ImageResizer:
     int mImageWidth -> mImageWidth
     int mImageHeight -> mImageHeight
@@ -11102,10 +11134,10 @@ com.riotapps.wordbase.utils.ImageWorker -> com.riotapps.wordbase.utils.ImageWork
     46:46:boolean access$1(com.riotapps.wordbase.utils.ImageWorker) -> b
     322:322:void access$2(com.riotapps.wordbase.utils.ImageWorker,android.widget.ImageView,android.graphics.Bitmap) -> a
     203:203:com.riotapps.wordbase.utils.ImageWorker$BitmapWorkerTask access$3(android.widget.ImageView) -> a
-com.riotapps.wordbase.utils.ImageWorker$AsyncDrawable -> qe:
+com.riotapps.wordbase.utils.ImageWorker$AsyncDrawable -> qf:
     java.lang.ref.WeakReference bitmapWorkerTaskReference -> a
     312:312:com.riotapps.wordbase.utils.ImageWorker$BitmapWorkerTask getBitmapWorkerTask() -> a
-com.riotapps.wordbase.utils.ImageWorker$BitmapWorkerTask -> qf:
+com.riotapps.wordbase.utils.ImageWorker$BitmapWorkerTask -> qg:
     java.lang.Object data -> b
     java.lang.ref.WeakReference imageViewReference -> c
     com.riotapps.wordbase.utils.ImageWorker this$0 -> a
@@ -11232,23 +11264,25 @@ com.riotapps.wordbase.utils.TypefaceButton -> com.riotapps.wordbase.utils.Typefa
 com.riotapps.wordbase.utils.Utils -> com.riotapps.wordbase.utils.Utils:
     int IO_BUFFER_SIZE -> IO_BUFFER_SIZE
     java.lang.String TAG -> a
-    48:51:void disableConnectionReuseIfNecessary() -> disableConnectionReuseIfNecessary
-    64:64:int getBitmapSize(android.graphics.Bitmap) -> getBitmapSize
-    78:78:boolean isExternalStorageRemovable() -> isExternalStorageRemovable
-    94:95:java.io.File getExternalCacheDir(android.content.Context) -> getExternalCacheDir
-    109:110:long getUsableSpace(java.io.File) -> getUsableSpace
-    120:120:int getMemoryClass(android.content.Context) -> getMemoryClass
-    131:131:boolean hasHttpConnectionBug() -> hasHttpConnectionBug
-    141:141:boolean hasExternalCacheDir() -> hasExternalCacheDir
-    151:151:boolean hasActionBar() -> hasActionBar
-    159:174:java.lang.String md5(java.lang.String) -> md5
-    178:178:long convertNanosecondsToMilliseconds(long) -> convertNanosecondsToMilliseconds
-    182:183:int convertDensityPixelsToPixels(android.content.Context,int) -> convertDensityPixelsToPixels
-    192:237:java.lang.String getTimeSinceString(android.content.Context,java.util.Date) -> getTimeSinceString
-    242:251:void shuffleArray(java.lang.String[]) -> shuffleArray
-    254:254:int coinFlip() -> coinFlip
-    259:259:int getRandomNumberFromRange(int,int) -> getRandomNumberFromRange
-    264:276:java.lang.String getOppositeDirection(java.lang.String) -> getOppositeDirection
+    49:52:void disableConnectionReuseIfNecessary() -> disableConnectionReuseIfNecessary
+    65:65:int getBitmapSize(android.graphics.Bitmap) -> getBitmapSize
+    79:79:boolean isExternalStorageRemovable() -> isExternalStorageRemovable
+    95:96:java.io.File getExternalCacheDir(android.content.Context) -> getExternalCacheDir
+    110:111:long getUsableSpace(java.io.File) -> getUsableSpace
+    121:121:int getMemoryClass(android.content.Context) -> getMemoryClass
+    132:132:boolean hasHttpConnectionBug() -> hasHttpConnectionBug
+    142:142:boolean hasExternalCacheDir() -> hasExternalCacheDir
+    152:152:boolean hasActionBar() -> hasActionBar
+    160:175:java.lang.String md5(java.lang.String) -> md5
+    179:179:long convertNanosecondsToMilliseconds(long) -> convertNanosecondsToMilliseconds
+    183:184:int convertDensityPixelsToPixels(android.content.Context,int) -> convertDensityPixelsToPixels
+    193:238:java.lang.String getTimeSinceString(android.content.Context,java.util.Date) -> getTimeSinceString
+    243:252:void shuffleArray(java.lang.String[]) -> shuffleArray
+    255:255:int coinFlip() -> coinFlip
+    260:260:int getRandomNumberFromRange(int,int) -> getRandomNumberFromRange
+    265:277:java.lang.String getOppositeDirection(java.lang.String) -> getOppositeDirection
+    281:283:java.lang.Object[] concatArrays(java.lang.Object[],java.lang.Object[]) -> concatArrays
+    287:287:int getResourceId(android.content.Context,java.lang.String) -> getResourceId
 com.riotapps.wordbase.utils.Validations -> com.riotapps.wordbase.utils.Validations:
     12:20:boolean validateEmail(java.lang.String) -> validateEmail
     25:33:boolean validateNickname(java.lang.String) -> validateNickname
@@ -11359,6 +11393,9 @@ com.riotapps.words.R$color -> com.riotapps.words.R$color:
     int sub_text_color -> sub_text_color
     int tab_background_color -> tab_background_color
     int title_bar_background_color -> title_bar_background_color
+    int toast_background_color -> toast_background_color
+    int toast_inner_background_color -> toast_inner_background_color
+    int toast_text_color -> toast_text_color
     int tray_background -> tray_background
 com.riotapps.words.R$drawable -> com.riotapps.words.R$drawable:
     int alert_background -> alert_background
@@ -11424,7 +11461,6 @@ com.riotapps.words.R$drawable -> com.riotapps.words.R$drawable:
     int sbd_bg -> sbd_bg
     int secondary_button_main -> secondary_button_main
     int spinner -> spinner
-    int splash_left -> splash_left
     int store_item_check -> store_item_check
     int tab_content_background -> tab_content_background
     int tab_form_background -> tab_form_background
@@ -11439,6 +11475,8 @@ com.riotapps.words.R$drawable -> com.riotapps.words.R$drawable:
     int tile_placed_bg -> tile_placed_bg
     int tile_played_bg -> tile_played_bg
     int tile_starter_bg -> tile_starter_bg
+    int toast_background -> toast_background
+    int toast_inner_background -> toast_inner_background
     int top_bg -> top_bg
     int top_logo -> top_logo
     int tray_tile_bg -> tray_tile_bg
@@ -11548,6 +11586,7 @@ com.riotapps.words.R$id -> com.riotapps.words.R$id:
     int scoreboardNumbers -> scoreboardNumbers
     int scroller -> scroller
     int tblLetters -> tblLetters
+    int toast_root -> toast_root
     int topAreaLayout -> topAreaLayout
     int tvActivityTitle -> tvActivityTitle
     int tvAlertTitle -> tvAlertTitle
@@ -11741,6 +11780,7 @@ com.riotapps.words.R$layout -> com.riotapps.words.R$layout:
     int splash -> splash
     int store -> store
     int swapdialog -> swapdialog
+    int toast -> toast
     int toparealayout -> toparealayout
     int twobuttondialog -> twobuttondialog
     int wordhintdialog -> wordhintdialog
@@ -11969,6 +12009,7 @@ com.riotapps.words.R$string -> com.riotapps.words.R$string:
     int gameboard_resign_button_text -> gameboard_resign_button_text
     int gameboard_shuffle_button_text -> gameboard_shuffle_button_text
     int gameboard_skip_button_text -> gameboard_skip_button_text
+    int gameboard_start_button_text -> gameboard_start_button_text
     int gameboard_swap_button_text -> gameboard_swap_button_text
     int gameboard_swap_dialog_button_text -> gameboard_swap_dialog_button_text
     int gameboard_swap_dialog_please_choose_text -> gameboard_swap_dialog_please_choose_text
@@ -12010,6 +12051,7 @@ com.riotapps.words.R$string -> com.riotapps.words.R$string:
     int post_turn_message_with_auto_play -> post_turn_message_with_auto_play
     int post_turn_title_with_auto_play -> post_turn_title_with_auto_play
     int progress_almost_ready -> progress_almost_ready
+    int progress_loading -> progress_loading
     int progress_looking_up -> progress_looking_up
     int progress_opponent_thinking -> progress_opponent_thinking
     int progress_saving -> progress_saving
@@ -12152,7 +12194,6 @@ com.riotapps.words.R$style -> com.riotapps.words.R$style:
     int ScoreboardScoreStyle -> ScoreboardScoreStyle
     int ScoreboardTurnStyle -> ScoreboardTurnStyle
     int SplashLayoutStyle -> SplashLayoutStyle
-    int SplashLeftStyle -> SplashLeftStyle
     int SplashLogoStyle -> SplashLogoStyle
     int StoreItemCheckStyle -> StoreItemCheckStyle
     int StoreItemPriceButtonStyle -> StoreItemPriceButtonStyle
@@ -12173,6 +12214,7 @@ com.riotapps.words.R$style -> com.riotapps.words.R$style:
     int TextLineItemStyle -> TextLineItemStyle
     int TextMiniStyle -> TextMiniStyle
     int TextStyle -> TextStyle
+    int ToastTextStyle -> ToastTextStyle
     int TopLogoAreaBottomStyle -> TopLogoAreaBottomStyle
     int TopLogoAreaStyle -> TopLogoAreaStyle
     int TopLogoBoardStyle -> TopLogoBoardStyle
@@ -12200,7 +12242,7 @@ net.jeremybrooks.knicker.AccountApi -> net.jeremybrooks.knicker.AccountApi:
     111:118:net.jeremybrooks.knicker.dto.User user(net.jeremybrooks.knicker.dto.AuthenticationToken) -> user
     133:140:java.util.List wordLists(net.jeremybrooks.knicker.dto.AuthenticationToken) -> wordLists
     157:166:java.util.List wordLists(net.jeremybrooks.knicker.dto.AuthenticationToken,int,int) -> wordLists
-net.jeremybrooks.knicker.DTOBuilder -> qg:
+net.jeremybrooks.knicker.DTOBuilder -> qh:
     72:81:net.jeremybrooks.knicker.dto.AuthenticationToken buildAuthenticationToken(org.w3c.dom.Document) -> a
     103:115:net.jeremybrooks.knicker.dto.TokenStatus buildTokenStatus(org.w3c.dom.Document) -> b
     136:147:net.jeremybrooks.knicker.dto.User buildUser(org.w3c.dom.Document) -> c
