@@ -26,6 +26,8 @@
 	<string name="IAB_12">dxvYsmyMVjqEmzexvjImNfef/v96kwfrj+b7r0qn</string>
 	<string name="IAB_13">cjFj1uvYsEfg4EROd1rAWVlGQYPlQDtoBwIDAQAB</string>
 	
+	<string name="AMAZON_APP_KEY">027ec6fff5ec4b21990c98799dba5a05</string>
+	
 	<string name="SKU_GOOGLE_PLAY_HOPPER_PEEK">riotapps_wwe_hopper_peek.a</string>
 	<string name="SKU_GOOGLE_PLAY_PREMIUM_UPGRADE">riotapps_wwe_premium_upgrade.a</string>
 	<string name="SKU_GOOGLE_PLAY_WORD_DEFINITIONS">riotapps_wwe_word_definitions.a</string>

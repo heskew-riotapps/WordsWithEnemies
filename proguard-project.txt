@@ -52,6 +52,10 @@
 -keep public class com.android.vending.licensing.ILicensingService
 -dontnote com.android.vending.licensing.ILicensingService
  
+-dontwarn com.amazon.**
+-keep class com.amazon.** {*;}
+-keepattributes *Annotation*
+-dontoptimize
 
 -keep class com.google.ads.** { *; }
 -keep class com.google.analytics.** { *; }
