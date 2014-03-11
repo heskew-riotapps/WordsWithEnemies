@@ -3,6 +3,7 @@ package com.riotapps.words;
 import com.riotapps.words.R;
 import com.riotapps.wordbase.utils.ApplicationContext;
 import com.riotapps.wordbase.utils.Constants;
+import com.riotapps.wordbase.utils.Utils;
 
 import android.content.Intent;
 import android.net.Uri;
@@ -36,7 +37,7 @@ public class About extends com.riotapps.wordbase.About implements View.OnClickLi
 	        tvBuildNumber.setText(String.format(this.getString(R.string.about_build_number), this.getString(R.string.build)));
 	        tvVersion.setText(String.format(this.getString(R.string.about_version), versionCode));	
 	        tvVersionName.setText(String.format(this.getString(R.string.version_name_display),versionName));
-	        tvDeviceSpecs.setText(String.format(this.getString(R.string.about_device_specs), this.getString(R.string.derived_device_screen_size), this.getString(R.string.derived_device_resolution)));
+	        tvDeviceSpecs.setText(String.format(this.getString(R.string.about_device_specs), this.getString(R.string.derived_device_screen_size), this.getString(R.string.derived_device_resolution), Utils.appStoreTitle(this)));
 	
 	        tvSupportLink.setOnClickListener(this);
 	        tvSupportText.setOnClickListener(this);

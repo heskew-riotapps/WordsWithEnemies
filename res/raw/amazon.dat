@@ -1,0 +1,32 @@
+{
+    "riotapps_wwe_hopper_peek.a" : {
+    "itemType": "ENTITLED",
+    "price": 0.99,
+    "title": "Hopper Peek",
+    "description": "Hopper Peek Desc"
+    },
+  "riotapps_wwe_premium_upgrade.a" : {
+    "itemType": "ENTITLED",
+    "price": 3.99,
+    "title": "Premium Upgrade",
+    "description": "Premium Upgrade Desc"
+  },
+    "riotapps_wwe_word_definitions.a" : {
+    "itemType": "ENTITLED",
+    "price": 0.99,
+    "title": "Word Definitions",
+    "description": "Word Definitions Desc"
+  },
+    "riotapps_wwe_hide_interstitial.a" : {
+    "itemType": "ENTITLED",
+    "price": 2.49,
+    "title": "Hide Interstitial",
+    "description": "Hide Interstitial Desc"
+  },
+    "riotapps_wwe_word_hints.a" : {
+    "itemType": "ENTITLED",
+    "price": 0.99,
+    "title": "Hints",
+    "description": "Hints Desc"
+  } 
+}
